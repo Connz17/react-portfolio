@@ -12,13 +12,13 @@ import * as ImIcons from 'react-icons/im'
 export const SidebarData = [
     {
         title: "Home",
-        path: "/home",
+        path: "/",
         icon: <FaIcons.FaHome/>,
         // class: "nav-text",
     },
     {
         title: "Projects",
-        path: "/projects",
+        path: "#",
         icon: <GiIcons.GiFullFolder/>,
         iconClosed: <AiIcons.AiFillCaretDown/>,
         iconOpen: <AiIcons.AiFillCaretUp/>,

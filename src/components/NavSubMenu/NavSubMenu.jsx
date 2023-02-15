@@ -27,18 +27,17 @@ const SidebarLabel = styled.span`
 const DropdownLink = styled(Link)`
   background: #414757
   height: 60px;
-  padding-left: 3rem;
   display: flex;
   align-items: center;
   text-decoration: none;
   color: #f5f5f5;
   font-size: 18px;
-  padding: 10px;
+  padding: 15px 0 15px 3rem;
 
   &:hover {
     background: #632ce4;
     curser: pointer;
-    
+    border-left: 4px solid #f5f5f5;
   }
 `
 
@@ -50,7 +49,7 @@ const NavSubMenu = ({ menu }) => {
 
   return (
     <>
-      <SidebarLink to={"#"} onClick={menu.subNav && showSubnav}>
+      <SidebarLink to={menu.path} onClick={menu.subNav && showSubnav}>
         <div>
           {menu.icon}
           <SidebarLabel>{menu.title}</SidebarLabel>

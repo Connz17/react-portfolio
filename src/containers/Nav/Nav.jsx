@@ -6,6 +6,7 @@ import * as TiIcons from 'react-icons/ti';
 import * as RiIcons from 'react-icons/ri';
 import { SidebarData } from "../../SidebarData";
 import NavSubMenu from "../../components/NavSubMenu/NavSubMenu";
+import { IconContext } from "react-icons";
 
 
 const TopBar = styled.div`
@@ -49,10 +50,12 @@ const Nav = () => {
 
   return (
     <>
+    <IconContext.Provider value={{ color: "#ffff"}}>
     <TopBar>
       <NavIcon to="#">
         <TiIcons.TiThMenu onClick={showSidebar}/>
       </NavIcon>
+      <h2 className="title">Connel Nwaodor</h2>
     </TopBar>
     <SidebarNav sidebar={sidebar}>
       <SidebarWrap>
@@ -64,6 +67,7 @@ const Nav = () => {
         })}
       </SidebarWrap>
     </SidebarNav>
+    </IconContext.Provider>
     </>
   )
 }
