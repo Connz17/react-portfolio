@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import * as TiIcons from 'react-icons/ti';
 import * as RiIcons from 'react-icons/ri';
-import { SidebarData } from "../../SidebarData";
+import { SidebarData } from "../../data/SidebarData";
 import NavSubMenu from "../../components/NavSubMenu/NavSubMenu";
 import { IconContext } from "react-icons";
 
