@@ -5,7 +5,7 @@ import htmlBlack from "../images/svgs/html5-svgrepo-com (black).svg";
 import css from "../images/svgs/css-3-svgrepo-com.svg";
 import cssBlack from "../images/svgs/css3-svgrepo-com (black).svg";
 import scss from "../images/svgs/scss2-svgrepo-com.svg";
-import scssBlack from "../images/svgs/sass-svgrepo-com (black).svg";
+import scssBlack from "../images/svgs/scss2-svgrepo-com.svg";
 import js from "../images/svgs/javascript-svgrepo-com.svg";
 import jsBlack from "../images/svgs/javascript-svgrepo-com (black).svg";
 import react from "../images/svgs/react-svgrepo-com.svg";

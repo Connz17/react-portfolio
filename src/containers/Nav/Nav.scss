@@ -1,5 +1,7 @@
+@use "../../styles/variables" as *;
 
 .title {
-    color: #85cdfa;
+    font-family: $font-primary;
+    color: $purple;
     margin: auto;
 }
