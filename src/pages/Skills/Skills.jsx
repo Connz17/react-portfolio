@@ -14,9 +14,9 @@ const Skills = () => {
     <div>
       <Nav/>
       <br />
-      <h2 className="skills__heading">My Technical Skills</h2> 
+      <h1 className="page__heading">My Technical Skills</h1> 
       <br />
-      <p className="skills__text">I am proficient technically in a multitude of languages, frameworks and programmes. Some of which are spotlighted below:</p> 
+      <p className="page__text">I am proficient technically in a multitude of languages, frameworks and programmes. Some of which are spotlighted below:</p> 
       <br />
       <div className="spotlight-container">
         <img className="skills__spotlight" src={spotLightLeft} alt="spotlight" />
