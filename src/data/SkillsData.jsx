@@ -20,6 +20,7 @@ import firebase from "../images/svgs/firebase-svgrepo-com.svg";
 import firebaseBlack from "../images/svgs/firebase-svgrepo-com (black).svg";
 import python from "../images/svgs/python-svgrepo-com.svg";
 import pythonBlack from "../images/svgs/python-svgrepo-com (black).svg";
+import cSharp from "../images/svgs/c-sharp-svgrepo-com.svg";
 
 
 export const SkillsData = [
@@ -87,6 +88,12 @@ export const SkillsData = [
         title: "Python",
         logo: python,
         altImage: pythonBlack,
+        description: ""
+      },
+      {
+        title: "C Sharp",
+        logo: cSharp,
+        altImage: cSharp,
         description: ""
       },
 ]

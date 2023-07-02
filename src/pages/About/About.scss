@@ -1,1 +1,27 @@
 @use "../../styles/variables" as *;
+
+
+.about__section-a {
+    margin: 1rem;
+    border: solid red 1px;
+    display: flex;
+    
+}
+
+.about__experience { 
+    border: solid orange 1px;
+    height: 40rem;
+    width: 30rem;
+}
+
+.about__section-b {
+    border: solid purple 1px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about__interests {
+    border: solid plum 1px;
+    height: 40rem;
+    width: 30rem;
+}
