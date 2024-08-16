@@ -15,7 +15,6 @@ const Skills = () => {
       <Nav/>
       <br />
       <h1 className="page__heading">My Technical Skills</h1> 
-      <br />
       <p className="page__text">I am proficient technically in a multitude of languages, frameworks and programmes. Some of which are spotlighted below:</p> 
       <br />
       <div className="spotlight-container">

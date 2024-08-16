@@ -1,4 +1,6 @@
 import Nav from "../../containers/Nav/Nav"
+import guyCoding from "../../images/img-svgs/Pictureguy-code-img.svg"
+import games from "../../images/pngs/video-game-transparent-11.png"
 import "./About.scss";
 
 
@@ -8,23 +10,34 @@ const About = () => {
     <div>
       <Nav/>
       <br />
-      <h1 className="page__heading">About me</h1>
+      <h1 className="page__heading">About me</h1><br />
       <div className="about__section-a">
         <div className="about__experience">
           <h2>Hi im Connel &#128075;&#127998;</h2>
-          <h2>&#128104;&#127998;&#8205;&#128187;</h2>
-          <p className="page__text">A highly driven software developer, who possesses the ability to deliver applications and projects to a high
-            standard and can be relied upon. Described as an enthusiastic, adaptable and energetic person with strong communication skills and a collaborative team player; i always actively seeking new challenges to further personal
-            development. Proactive prioritisation of workloads to meet strict deadlines, composure in pressurised environments and the ability to take initiative are all skills i've attained and developed within work. 
-          </p>
+          <h1>&#128104;&#127998;&#8205;&#128187;</h1> <br />
+            <p className="page__text">A highly motivated software developer with a proven track record of delivering high-quality applications and projects, I am known for being reliable and detail-oriented.</p>
+            <br />
+            <p className="page__text">I am often described as enthusiastic, adaptable, and energetic, with strong communication skills and a collaborative spirit. I consistently seek out new challenges to enhance my personal and professional growth.</p>
+            <br />
+            <p className="page__text">Throughout my career, I’ve honed the ability to proactively prioritize workloads, meet strict deadlines, and maintain composure in high-pressure situations. My capacity to take initiative and drive projects forward has been key to my success in the workplace.</p>
         </div>
-        <img src="" alt="" />
+        <div className="section-a__img">
+          <img className="about__img" src={guyCoding} alt="" />
+        </div>
+        
       </div>
       <div className="about__section-b">
         <div className="about__interests">
-        <p className="page__text">I hold numerous interests. A major one being in sports where I play American Football, won my university teams defensive MVP (most valuable player) award 3 years running, watch football, F1, basketball and a range of others. I also watch podcasts such as The Joe Rogan Experience, and read blog posts on sites like Waitbutwhy.com, a personnel favorite of mine is AI and the road to super intelligence. plus the occasional YouTube wormhole on channels like CNBC, Bloomberg and the Economist, expanding my knowledge and understanding of various interesting and informative topics in science & technology.  Additionally, I am a bit of a gamer, my claim to fame being platnaming Nioh, Dark Souls, bloodborne and Elden Ring amongst other games i'm currently starting a YouTube Channel and continuing to self-learn new coding skills and languages.</p>
+        <p className="page__text">I have a wide range of interests, with sports being a major one. I enjoy watching American Football, Football, F1, Basketball, and many other sports.</p>
+        <br />
+        <p className="page__text">Beyond sports, I’m deeply engaged in the tech community, regularly following content creators like Pirate Software and Net Ninja. To stay current with the latest trends in technology, I subscribe to newsletters from TLDR. I also enjoy reading insightful blogs on platforms like Wait But Why, with "AI and the Road to Superintelligence" being a standout favorite. Occasionally, I dive into YouTube channels like CNBC, Bloomberg, and The Economist to broaden my understanding of compelling topics in science and technology.</p>
+        <br />
+        <p className="page__text">In addition to my interests in tech and sports, I’m an avid gamer. Some of my proudest accomplishments include earning Platinum trophies in challenging games like Nioh, Dark Souls, Bloodborne, and Elden Ring. Currently, I'm in the process of launching a YouTube channel focused on gaming and technology. I’m also dedicated to continuous learning, actively expanding my coding skills and exploring new programming languages through courses on Udemy.</p>
         </div>
-        <img src={"#"} alt="" />
+        <div className="section-b__img">
+          <img className="about-b__img" src={games} alt="" />
+        </div>
+        
       </div>
     </div>
   )

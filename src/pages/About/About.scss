@@ -1,27 +1,59 @@
 @use "../../styles/variables" as *;
+@use "../../App.scss" as *;
 
 
 .about__section-a {
     margin: 1rem;
-    border: solid red 1px;
     display: flex;
-    
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+
 }
 
 .about__experience { 
-    border: solid orange 1px;
     height: 40rem;
-    width: 30rem;
+    width: 37rem;
 }
 
 .about__section-b {
-    border: solid purple 1px;
+    margin-top: 1.5rem;
+    margin: 1rem;
     display: flex;
+    justify-content: center;
     flex-direction: row-reverse;
 }
 
 .about__interests {
-    border: solid plum 1px;
     height: 40rem;
-    width: 30rem;
+    width: 51rem;
+    margin-left: 15px;
+}
+
+.section-a__img {
+    background-color: $light-blue;
+    rotate: 3deg;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.about__img {
+    rotate: -5deg;
+    border: solid $dark-gold 2px;
+    border-radius: 5px;
+    padding: 15px 0px;
+}
+
+.section-b__img {
+    background-color: $dark-gold;
+    rotate: -3deg;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.about-b__img {
+    rotate: 5deg;
+    border: solid $light-blue 2px;
+    border-radius: 5px;
+    padding: 40px 0px;
 }
