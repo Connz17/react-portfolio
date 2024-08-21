@@ -1,6 +1,11 @@
 import JSCalculator from "../images/projectPictures/JS Calculator.png";
+import JSMazeGame from "../images/projectPictures/Maze Game v2 (1).png";
 import beerpunk from "../images/projectPictures/brewdog-beerpunk-api.png";
-import temp from "../images/projectPictures//clipart4821965.png";
+import ticketTracker from "../images/projectPictures/Ticket tracker v2.png";
+import temp from "../images/projectPictures/clipart4821965.png";
+import morseCode from "../images/projectPictures/Morse Code Translator.png";
+import weatherApp from "../images/projectPictures/Weather App.png";
+import propertyApp from "../images/projectPictures/Property App.png";
 
 
 export const ProjectData = 
@@ -17,8 +22,8 @@ export const ProjectData =
             },
             {
                 project: "Morse Code Translator",
-                title: "#",
-                thumbnail: temp,
+                title: "Morse Code Translator",
+                thumbnail: morseCode,
                 preview: "",
                 alt:"",
                 link:"",
@@ -26,8 +31,8 @@ export const ProjectData =
             },
             {
                 project: "Weather App",
-                title: "#",
-                thumbnail: temp,
+                title: "My Weather App",
+                thumbnail: weatherApp,
                 preview: "",
                 alt:"",
                 link:"",
@@ -35,8 +40,8 @@ export const ProjectData =
             },
             {
                 project: "Javascript Browser Game",
-                title: "#",
-                thumbnail: temp,
+                title: "Javascript Maze Game",
+                thumbnail: JSMazeGame,
                 preview: "",
                 alt:"",
                 link:"",
@@ -44,7 +49,7 @@ export const ProjectData =
             },
             {
                 project: "JavaScript Calculator",
-                title: "#",
+                title: "JavaScript Calculator",
                 thumbnail: JSCalculator,
                 preview: "",
                 alt:"",
@@ -53,8 +58,8 @@ export const ProjectData =
             },
             {
                 project: "Ticket Tracker",
-                title: "#",
-                thumbnail: temp,
+                title: "React Ticket Tracker",
+                thumbnail: ticketTracker,
                 preview: "",
                 alt:"",
                 link:"",
@@ -62,8 +67,8 @@ export const ProjectData =
             },
             {
                 project: "Property App",
-                title: "#",
-                thumbnail: temp,
+                title: "Perfect Properties",
+                thumbnail: propertyApp,
                 preview: "",
                 alt:"",
                 link:"",
