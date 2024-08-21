@@ -6,6 +6,7 @@ import temp from "../images/projectPictures/clipart4821965.png";
 import morseCode from "../images/projectPictures/Morse Code Translator.png";
 import weatherApp from "../images/projectPictures/Weather App.png";
 import propertyApp from "../images/projectPictures/Property App.png";
+import darkSouls from "../images/projectPictures/Dark Souls.png";
 
 
 export const ProjectData = 
@@ -78,7 +79,7 @@ export const ProjectData =
         backend: [
         {
             project: "Java Calculator",
-            title: "#",
+            title: "Java Calculator",
             thumbnail: temp,
             preview: "",
             alt:"",
@@ -87,7 +88,7 @@ export const ProjectData =
         },
         {
             project: "Java Hangman",
-            title: "#",
+            title: "Java Hangman Game",
             thumbnail: temp,
             preview: "",
             alt:"",
@@ -96,7 +97,7 @@ export const ProjectData =
         },
         {
             project: "Java Card Game",
-            title: "#",
+            title: "Java Card Game",
             thumbnail: temp,
             preview: "",
             alt:"",
@@ -105,7 +106,7 @@ export const ProjectData =
         },
         {
             project: "Java Library System",
-            title: "#",
+            title: "Java Library",
             thumbnail: temp,
             preview: "",
             alt:"",
@@ -117,8 +118,8 @@ export const ProjectData =
         [
             {
                 project: "Dark Souls",
-                title: "#",
-                thumbnail: temp,
+                title: "Dark Souls Companion App",
+                thumbnail: darkSouls,
                 preview: "",
                 alt:"",
                 link:"",

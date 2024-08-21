@@ -22,7 +22,7 @@ const FrontEnd = () => {
   return (
     <div>
       <Nav/>
-      <img src={pageimg} alt="Front-end development"/>
+      <img className="pageImg" src={pageimg} alt="Front-end development"/>
       {feProjectsJSX}
     </div>
   )
