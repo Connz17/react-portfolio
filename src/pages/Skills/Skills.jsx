@@ -17,16 +17,7 @@ const Skills = () => {
       <h1 className="page__heading">My Technical Skills</h1> 
       <p className="page__text">I am proficient technically in a multitude of languages, frameworks and programmes. Some of which are spotlighted below:</p> 
       <br />
-      
-      
-      {/* <div className="spotlight-container">
-        <img className="skills__spotlight" src={spotLightLeft} alt="spotlight" />
-        <img className="skills__spotlight" src={spotLightRight} alt="spotlight" />
-      </div> */}
-      <div className="carousel__container">
-        <Carousel/>
-      </div>
-      
+        <Carousel/>      
     </div>
   )
 }

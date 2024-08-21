@@ -18,7 +18,12 @@
         background-color: $purple;
         
         &--main {
-        margin: 10rem 7rem 0 7rem;
+        margin: 5rem 7rem 0 7rem;
+        box-shadow: 5px 5px 10px 5px;
+        background-color: $light-purple;
+        padding: 5rem 3rem;
+        border-radius: 15px;
+        size: 3rem;
     }
 
     &--side {

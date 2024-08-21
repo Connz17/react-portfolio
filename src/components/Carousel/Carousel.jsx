@@ -60,7 +60,9 @@ const handleNextImage = () => {
             <FaIcons.FaArrowCircleLeft className="carousel__arrow"
                 onClick={handleIncrement}/>
             <img className="carousel__image--side" src={SkillsData[previousCounter].altImage} alt="" />
-            <img className="carousel__image--main" src={SkillsData[counter].logo} alt="" />
+            {/* <div> */}
+              <img className="carousel__image--main" src={SkillsData[counter].logo} alt="" />
+            {/* </div> */}
             <img className="carousel__image--side" src={SkillsData[nextCounter].altImage} alt="" />
             <FaIcons.FaArrowCircleRight className="carousel__arrow"
                 onClick={handleDecrement}
