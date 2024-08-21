@@ -5,7 +5,7 @@ import htmlBlack from "../images/svgs/html5-svgrepo-com (black).svg";
 import css from "../images/svgs/css-3-svgrepo-com.svg";
 import cssBlack from "../images/svgs/css3-svgrepo-com (black).svg";
 import scss from "../images/svgs/scss2-svgrepo-com.svg";
-import scssBlack from "../images/svgs/scss2-svgrepo-com.svg";
+import scssBlack from "../images/svgs/sass-svgrepo-com (black).svg";
 import js from "../images/svgs/javascript-svgrepo-com.svg";
 import jsBlack from "../images/svgs/javascript-svgrepo-com (black).svg";
 import react from "../images/svgs/react-svgrepo-com.svg";
@@ -21,6 +21,7 @@ import firebaseBlack from "../images/svgs/firebase-svgrepo-com (black).svg";
 import python from "../images/svgs/python-svgrepo-com.svg";
 import pythonBlack from "../images/svgs/python-svgrepo-com (black).svg";
 import cSharp from "../images/svgs/c-sharp-svgrepo-com.svg";
+import cSharpBlack from "../images/svgs/c-sharp-svgrepo-com (black).svg";
 
 
 export const SkillsData = [
@@ -93,7 +94,7 @@ export const SkillsData = [
       {
         title: "C Sharp",
         logo: cSharp,
-        altImage: cSharp,
+        altImage: cSharpBlack,
         description: ""
       },
 ]

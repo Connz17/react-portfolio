@@ -58,12 +58,12 @@ const handleNextImage = () => {
     <div className="carousel">
         <div className="carousel-container">
             <FaIcons.FaArrowCircleLeft className="carousel__arrow"
-                onClick={handleDecrement}/>
+                onClick={handleIncrement}/>
             <img className="carousel__image--side" src={SkillsData[previousCounter].altImage} alt="" />
-            <img className="carousel__image--main" src={SkillsData[counter].altImage} alt="" />
+            <img className="carousel__image--main" src={SkillsData[counter].logo} alt="" />
             <img className="carousel__image--side" src={SkillsData[nextCounter].altImage} alt="" />
             <FaIcons.FaArrowCircleRight className="carousel__arrow"
-                onClick={handleIncrement}
+                onClick={handleDecrement}
                 />
         </div>
         <br />
