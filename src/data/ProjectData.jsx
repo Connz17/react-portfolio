@@ -1,87 +1,111 @@
+import JSCalculator from "../images/projectPictures/JS Calculator.png";
+import beerpunk from "../images/projectPictures/brewdog-beerpunk-api.png";
+import temp from "../images/projectPictures//clipart4821965.png";
 
 
-
-export const ProjectData = [
+export const ProjectData = 
     {
         frontend: [
             {
                 project: "BrewDog beer punk api",
-                title: "#",
-                thumbnail: "",
+                title: "Brew Dog API",
+                thumbnail: beerpunk,
+                preview: "",
                 alt:"",
                 link:"",
+                repo:"",
             },
             {
                 project: "Morse Code Translator",
                 title: "#",
-                thumbnail: "",
+                thumbnail: temp,
+                preview: "",
                 alt:"",
                 link:"",
+                repo:"",
             },
             {
                 project: "Weather App",
                 title: "#",
-                thumbnail: "",
+                thumbnail: temp,
+                preview: "",
                 alt:"",
                 link:"",
+                repo:"",
             },
             {
                 project: "Javascript Browser Game",
                 title: "#",
-                thumbnail: "",
+                thumbnail: temp,
+                preview: "",
                 alt:"",
                 link:"",
+                repo:"",
             },
             {
                 project: "JavaScript Calculator",
                 title: "#",
-                thumbnail: "",
+                thumbnail: JSCalculator,
+                preview: "",
                 alt:"",
                 link:"",
+                repo:"",
             },
             {
                 project: "Ticket Tracker",
                 title: "#",
-                thumbnail: "",
+                thumbnail: temp,
+                preview: "",
                 alt:"",
                 link:"",
+                repo:"",
             },
             {
                 project: "Property App",
                 title: "#",
-                thumbnail: "",
+                thumbnail: temp,
+                preview: "",
                 alt:"",
                 link:"",
+                repo:"",
             }
         ], 
         backend: [
         {
             project: "Java Calculator",
             title: "#",
-            thumbnail: "",
+            thumbnail: temp,
+            preview: "",
             alt:"",
             link:"",
+            repo:"",
         },
         {
             project: "Java Hangman",
             title: "#",
-            thumbnail: "",
+            thumbnail: temp,
+            preview: "",
             alt:"",
             link:"",
+            repo:"",
         },
         {
             project: "Java Card Game",
             title: "#",
-            thumbnail: "",
+            thumbnail: temp,
+            preview: "",
             alt:"",
             link:"",
+            repo:"",
         },
         {
             project: "Java Library System",
             title: "#",
-            thumbnail: "",
+            thumbnail: temp,
+            preview: "",
             alt:"",
             link:"",
+            repo:"",
         }
         ],
         fullstack:
@@ -89,10 +113,11 @@ export const ProjectData = [
             {
                 project: "Dark Souls",
                 title: "#",
-                thumbnail: "",
+                thumbnail: temp,
+                preview: "",
                 alt:"",
                 link:"",
+                repo:"",
             }
         ] 
     }
-]

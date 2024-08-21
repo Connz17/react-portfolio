@@ -5,3 +5,50 @@
     color: $purple;
     margin: auto;
 }
+
+.topBar{
+    background: #15171c;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sidebarNav{
+    background: #15171c;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: .45s;
+    z-index: 3;
+
+    &.active {
+        left: 0%;
+    }
+}
+
+
+
+.sidebarWrap{
+    width: 100%;
+}
+
+.navIcon {
+    margin-left: 2rem;
+    font-size: 2rem;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#homeIcon {
+    margin: auto;
+    height: 30px;
+    color: $gold;
+    background-color: $light-blue;
+}

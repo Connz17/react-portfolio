@@ -1,45 +1,8 @@
-import React from "react";
+import "./NavSubMenu.scss";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
 
-const SidebarLink = styled(Link)`
-  display: flex;
-  color: #e1e9fc;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  list-style: none;
-  height: 60px;
-  text-decoration: none;
-  font-size: 18px;
 
-  &:hover {
-    background: #252831;
-    border-left: 4px solid #632ce4;
-    curser: pointer;
-  }
-`;
-const SidebarLabel = styled.span`
-  margin-left: 16px;
-`;
-
-const DropdownLink = styled(Link)`
-  background: #414757
-  height: 60px;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #f5f5f5;
-  font-size: 18px;
-  padding: 15px 0 15px 3rem;
-
-  &:hover {
-    background: #632ce4;
-    curser: pointer;
-    border-left: 4px solid #f5f5f5;
-  }
-`
 
 const NavSubMenu = ({ menu }) => {
 
@@ -49,10 +12,10 @@ const NavSubMenu = ({ menu }) => {
 
   return (
     <>
-      <SidebarLink to={menu.path} onClick={menu.subNav && showSubnav}>
+      <Link className="sidebarLink" to={menu.path} onClick={menu.subNav && showSubnav}>
         <div>
           {menu.icon}
-          <SidebarLabel>{menu.title}</SidebarLabel>
+          <span className="sidebarLabel">{menu.title}</span>
         </div>
         <div>
           {menu.subNav && subnav
@@ -61,14 +24,13 @@ const NavSubMenu = ({ menu }) => {
             ? menu.iconClosed
             : null}
         </div>
-      </SidebarLink>
+      </Link>
       {subnav && menu.subNav.map(( item, index) => {
         return (
-            <DropdownLink to={item.path} key={index} >
+            <Link className="dropdownLink" to={item.path} key={index} >
                 {item.icon}
-                <SidebarLabel>{item.title}</SidebarLabel>
-            </DropdownLink>
-            
+                <span className="sidebarLabel">{item.title}</span>
+            </Link>
       )
       }) }
     </>
