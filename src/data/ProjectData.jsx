@@ -7,6 +7,10 @@ import morseCode from "../images/projectPictures/Morse Code Translator.png";
 import weatherApp from "../images/projectPictures/Weather App.png";
 import propertyApp from "../images/projectPictures/Property App.png";
 import darkSouls from "../images/projectPictures/Dark Souls.png";
+import library from "../images/projectPictures/Library System.png";
+import hangman from "../images/projectPictures/Hangman.png";
+import cardGame from "../images/projectPictures/Cards Game.png";
+import javaCalculator from "../images/projectPictures/Java Calculator.png";
 
 
 export const ProjectData = 
@@ -80,7 +84,7 @@ export const ProjectData =
         {
             project: "Java Calculator",
             title: "Java Calculator",
-            thumbnail: temp,
+            thumbnail: javaCalculator,
             preview: "",
             alt:"",
             link:"",
@@ -89,7 +93,7 @@ export const ProjectData =
         {
             project: "Java Hangman",
             title: "Java Hangman Game",
-            thumbnail: temp,
+            thumbnail: hangman,
             preview: "",
             alt:"",
             link:"",
@@ -98,7 +102,7 @@ export const ProjectData =
         {
             project: "Java Card Game",
             title: "Java Card Game",
-            thumbnail: temp,
+            thumbnail: cardGame,
             preview: "",
             alt:"",
             link:"",
@@ -107,7 +111,7 @@ export const ProjectData =
         {
             project: "Java Library System",
             title: "Java Library",
-            thumbnail: temp,
+            thumbnail: library,
             preview: "",
             alt:"",
             link:"",
