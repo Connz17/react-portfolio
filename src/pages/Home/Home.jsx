@@ -1,7 +1,7 @@
 import Nav from "../../containers/Nav/Nav"
 import "./Home.scss"
 import {HomePageData} from "../../data/HomeData"
-import pageImg from "../../images/svgs/code-circle-svgrepo-com.svg"
+import pageImg from "../../images/svgs/code-circle-svgrepo-com.svg";
 
 
 

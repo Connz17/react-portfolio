@@ -1,45 +1,49 @@
 @use "../../styles/variables" as *;
 
-
+.aboutPage {
+    height: fit-content;
+}
 .about__section-a {
-    margin: 1rem;
     display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-bottom: 1.5rem;
-
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
 }
 
 .about__experience { 
+    height: auto;
+    width: 50vw;
     height: 40rem;
-    width: 37rem;
 }
 
 .about__section-b {
-    margin-top: 1.5rem;
-    margin: 1rem;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
     flex-direction: row-reverse;
+    gap: 1rem;
 }
 
 .about__interests {
+    height: auto;
+    width: 50vw;
     height: 40rem;
-    width: 51rem;
-    margin-left: 15px;
 }
 
 .section-a__img {
     background-color: $purple;
     rotate: 3deg;
     border-radius: 5px;
+
 }
 
 .about__img {
     rotate: -5deg;
     border: solid $dark-gold 2px;
     border-radius: 5px;
-    padding: 15px 0px;
+    width: auto;
+    height: 35rem;
+
 }
 
 .section-b__img {
@@ -52,5 +56,6 @@
     rotate: 5deg;
     border: solid $purple 2px;
     border-radius: 5px;
-    padding: 40px 0px;
+    height: 35rem;
+    width: auto;
 }
