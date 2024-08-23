@@ -1,5 +1,4 @@
 @use "../../styles/variables" as *;
-@use "../../App.scss" as *;
 
 
 .about__section-a {
@@ -34,7 +33,6 @@
     background-color: $purple;
     rotate: 3deg;
     border-radius: 5px;
-    z-index: -1;
 }
 
 .about__img {
@@ -48,7 +46,6 @@
     background-color: $dark-gold;
     rotate: -3deg;
     border-radius: 5px;
-    z-index: -1;
 }
 
 .about-b__img {

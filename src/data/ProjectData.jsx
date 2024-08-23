@@ -2,7 +2,6 @@ import JSCalculator from "../images/projectPictures/JS Calculator.png";
 import JSMazeGame from "../images/projectPictures/Maze Game v2 (1).png";
 import beerpunk from "../images/projectPictures/brewdog-beerpunk-api.png";
 import ticketTracker from "../images/projectPictures/Ticket tracker v2.png";
-import temp from "../images/projectPictures/clipart4821965.png";
 import morseCode from "../images/projectPictures/Morse Code Translator.png";
 import weatherApp from "../images/projectPictures/Weather App.png";
 import propertyApp from "../images/projectPictures/Property App.png";

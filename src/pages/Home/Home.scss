@@ -1,0 +1,48 @@
+@use "../../styles/variables" as *;
+
+.typewriter{
+    display: inline-block;
+    margin: 6rem auto;
+    border: solid black;
+    border-width: 20px 10px;
+    border-radius: 5px;
+    height: 70vh;
+    width: 75vw;
+    padding: 7rem 3rem;
+    background-color: #0078d7;
+}
+
+.titleContainer{
+    overflow: hidden;
+    border-right: .15em solid $gold;
+    font-size: 1.6rem;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 2.3s steps(45, end) 0.5s forwards,
+            blink .8s infinite;
+}
+
+
+.homeImg{
+    margin-top: 5rem;
+    height: 15rem;
+    width: auto;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: $gold; }
+  }
+
+  @media (min-width: 1150px) {
+    .home {
+        box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.35);
+        margin: 0 auto;
+        width: 85%;
+    }
+  }
