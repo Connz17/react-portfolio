@@ -21,7 +21,7 @@ const FullStack = () => {
   return (
     <div>
       <Nav/>
-      <img className="pageImg__fs" src={pageimg} alt="FFull Stack development"/>
+      <img className="pageImg" src={pageimg} alt="FFull Stack development"/>
       {flsProjectsJSX}
     </div>
   )

@@ -2,10 +2,9 @@
 
 .home {
     box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.35);
-    margin: 0 auto;
+    margin: auto;
     width: 85%;
     height: 91vh;
-    
 }
 
 .typewriter{
@@ -24,7 +23,7 @@
     font-size: 1.5rem;
     white-space: nowrap;
     width: 0;
-    animation: typing 2.3s steps(45, end) 0.5s forwards,
+    animation: typing 2.5s steps(45, end) 0.5s forwards,
             blink .8s infinite;
 }
 
@@ -33,6 +32,15 @@
     margin-top: 5rem;
     height: 15rem;
     width: auto;
+}
+
+#containerTwo{
+    display: none;
+}
+
+#containerThree{
+    display: none;
+
 }
 
 @keyframes typing {
@@ -45,11 +53,71 @@
     to { border-color: $gold; }
   }
 
-//   @media (min-width: 1150px) {
-//     .home {
-//         box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.35);
-//         margin: 0 auto;
-//         width: 85%;
-//         height: 93vh;
-//     }
-//   }
+@media only screen and (max-width: 1027px) {
+    //max width is 992 and everything down
+    .typewriter{
+        padding: 3.5rem 2rem;
+        margin: 2.5rem 0;
+    }
+
+    .homeImg{
+        margin-top: 3rem;
+        height: 12rem;
+    }
+    
+    #containerOne{
+        display: none;
+    }
+    #containerTwo{
+        display: block;
+    }
+}
+    
+@media only screen and (max-width: 600px) {
+
+    .home {
+        box-shadow: none;
+        margin: auto;
+        height: 91vh;
+        width: 100%;
+    }
+
+    .typewriter{
+        padding: 9rem 0.2rem;
+        margin: 2rem auto;
+    }
+
+    .titleContainer{
+        animation: typing 2s steps(35, end) 0.5s forwards,
+        blink .8s infinite;
+    }
+
+    .homeImg{
+        margin-top: 3rem;
+        height: 10rem;
+    }
+    
+    #containerOne{
+        display: none;
+    }
+
+    #containerTwo{
+        display: none;
+    }
+    #containerThree{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .typewriter{
+        border-width: 20px 5px;
+        padding: 8.5rem 0rem;
+    }
+
+    .titleContainer{
+        animation: typing 1.5s steps(30, end) 0.5s forwards,
+        blink .8s infinite;
+    }
+
+}

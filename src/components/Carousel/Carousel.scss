@@ -55,3 +55,28 @@
     }
     
 }
+
+@media only screen and (max-width: 1027px) {
+    .carousel__image--main{
+        margin: 1.5rem 2rem 0 2rem;
+        padding: 2rem 1.5rem;
+    }
+
+    .carousel__image--side{
+        margin: 0rem 2rem -5rem 2rem;
+    }
+}
+    
+@media only screen and (max-width: 600px) {
+    .carousel__image--side{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .carousel__image--main{
+        margin: .5rem 1rem 0 1rem;
+        padding: 1.5rem 1rem;
+    }
+
+}

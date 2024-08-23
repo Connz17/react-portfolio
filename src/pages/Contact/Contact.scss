@@ -43,3 +43,14 @@
     font-family: $font-tertiary;
     font-size: 3rem;
 }
+
+
+@media only screen and (max-width: 450px) {
+    .icon__image {
+        height: 7.5rem;
+    }
+    
+    .icon__text {
+        font-size: 2rem;
+    }
+}

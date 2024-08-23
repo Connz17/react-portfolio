@@ -1,17 +1,16 @@
 @use "../../styles/variables" as *;
 
 .aboutPage {
-    height: fit-content;
+    height: max-content;
 }
 .about__section-a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .about__experience { 
-    height: auto;
     width: 50vw;
     height: 40rem;
 }
@@ -21,11 +20,11 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row-reverse;
-    gap: 1rem;
+    gap: 2rem;
+    padding-bottom: 3rem;
 }
 
 .about__interests {
-    height: auto;
     width: 50vw;
     height: 40rem;
 }
@@ -34,7 +33,6 @@
     background-color: $purple;
     rotate: 3deg;
     border-radius: 5px;
-
 }
 
 .about__img {
@@ -43,7 +41,6 @@
     border-radius: 5px;
     width: auto;
     height: 35rem;
-
 }
 
 .section-b__img {
@@ -58,4 +55,101 @@
     border-radius: 5px;
     height: 35rem;
     width: auto;
+}
+
+@media only screen and (max-width: 1027px) {
+
+    .about__section-a {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .about__experience {
+        width: 80vw;
+        height: auto;
+    }
+
+    .section-a__img {
+
+    }
+
+    .about__img{
+
+    }
+    
+    .about__section-b {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .about__interests{
+        width: 80vw;
+        height: auto;
+    }
+
+    .section-b__img{
+
+    }
+
+    .about-b__img{
+
+    }
+}
+    
+@media only screen and (max-width: 600px) {
+
+    .about__experience {
+        width: 75vw;
+        height: auto;
+    }
+
+    .section-a__img {
+
+    }
+
+    .about__img{
+        width: 20rem;
+        height: auto;
+    }
+
+    .about__interests{
+        width: 75vw;
+        height: auto;
+    }
+
+    .section-b__img{
+
+    }
+
+    .about-b__img{
+        width: 20rem;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .about__experience {
+
+    }
+
+    .section-a__img {
+
+    }
+
+    .about__img{
+
+    }
+
+    .about__interests{
+
+    }
+
+    .section-b__img{
+
+    }
+
+    .about-b__img{
+
+    }
 }

@@ -1,28 +1,27 @@
 @use "../../styles/variables" as *;
 
 .card{
-    // border: 3px solid brown;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 35px 0px;
-    
+    margin: 2rem 0rem;
 }
 
 .card__image{
-    height: 20rem;
+    width: 35rem;
+    height: auto;
     border-radius: 15px;
 }
 
-.card_title {
+.card__title {
     position: relative;
-    bottom: 90px;
+    bottom: 5.5rem;
     font-size: 1.7rem;
     font-family: $font-secondary;
 }
 
 .card__button{
-    margin: 15px;
+    margin: 0.9rem;
     height: 3rem;
     width: 7rem;
     border-radius: 10px;
@@ -39,5 +38,48 @@
     &:hover {
         background-color: #f8f9fc;
         color: $light-purple;
+    }
+}
+
+@media only screen and (max-width: 1027px) {
+    .card{
+        margin: 1rem 0rem;
+
+        &__title {
+            bottom: 3rem;
+        }
+
+        &__image{
+                width: 20rem;
+            }
+
+        &__button{
+            margin: 0.5rem;
+        }
+    }
+}
+    
+@media only screen and (max-width: 600px) {
+    .card__image{
+        width: 10rem;
+    }
+
+    .card__title{
+        font-size: 1.3rem;
+        bottom: 1.5rem;
+    }
+
+    .card__button{
+        height: 2rem;
+        width: 5rem;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .card__title{
+        font-size: 1.3rem;
+        bottom: 1rem;
     }
 }
