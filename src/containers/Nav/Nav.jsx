@@ -6,7 +6,6 @@ import * as RiIcons from 'react-icons/ri';
 import { SidebarData } from "../../data/SidebarData";
 import NavSubMenu from "../../components/NavSubMenu/NavSubMenu";
 import { IconContext } from "react-icons";
-// import home from "../../images/pngs/code.png";
 
 
 
@@ -27,8 +26,7 @@ const Nav = () => {
       <Link className="navIcon" to="#">
         <TiIcons.TiThMenu onClick={showSidebar}/>
       </Link>
-      {/* <img id="homeIcon" src={home} alt="" /> */}
-      <h2 className="title">Connel Nwaodor</h2>
+        <h2 className="title">Connel</h2>
     </div>
     <nav className={sidebar ? "sidebarNav active" : "sidebarNav"} >
       <div className="sidebarWrap">

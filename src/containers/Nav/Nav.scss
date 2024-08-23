@@ -2,15 +2,15 @@
 
 .title {
     font-family: $font-primary;
-    color: $purple;
+    color: $indigo;
     margin: auto;
 }
 
 .topBar{
     background: #15171c;
-    height: 80px;
-    display: flex;
-    justify-content: flex-start;
+    height: 9vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
 }
 
@@ -44,11 +44,4 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
-
-#homeIcon {
-    margin: auto;
-    height: 30px;
-    color: $gold;
-    background-color: $light-blue;
 }

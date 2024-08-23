@@ -1,0 +1,45 @@
+@use "../../styles/variables" as *;
+
+.contact__main {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 2fr 1fr;
+    grid-template-areas: 
+    ". title title title ."
+    ". . . . ."
+    ". LI . GH ."
+    ". LItxt . GHtxt ."
+    ". . . . .";
+    align-items: center;
+    justify-items: center;
+}
+
+#Contact__title{
+    grid-area: title;
+}
+
+#linkedIn__image{
+    grid-area: LI;
+}
+
+#linkedIn__text{
+    grid-area: LItxt;
+}
+
+#gitHub__image{
+    grid-area: GH;
+}
+
+#gitHub__text{
+    grid-area: GHtxt;
+}
+
+.icon__image {
+    height: 10rem;
+}
+
+.icon__text {
+    font-family: $font-tertiary;
+    font-size: 3rem;
+}
