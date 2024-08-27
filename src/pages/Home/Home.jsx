@@ -18,7 +18,7 @@ const Home = () => {
               <h2 className="titleMessage">Connel, software developer.</h2>
             </div>
             <div className="titleContainer" id="containerThree">
-              <h2 className="titleMessage">Connel, software dev</h2>
+              <h2 className="titleMessage">Welcome</h2>
             </div>
             <img className="homeImg" src={pageImg} alt="code circle" />
           </div>

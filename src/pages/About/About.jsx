@@ -13,13 +13,13 @@ const About = () => {
       <h1 className="page__heading">About me</h1><br />
       <div className="about__section-a">
         <div className="about__experience">
-          <h2>Hi im Connel &#128075;&#127998;</h2>
+          <h2>Hi I'm Connel &#128075;&#127998;</h2>
           <h1>&#128104;&#127998;&#8205;&#128187;</h1> <br />
-            <p className="page__text">A highly motivated software developer with a proven track record of delivering high-quality applications and projects, I am known for being reliable and detail-oriented.</p>
+            <p className="page__text">A motivated software developer with strong problem-solving abilities and a proven track record of delivering high-quality work..</p>
             <br />
-            <p className="page__text">I am often described as enthusiastic, adaptable, and energetic, with strong communication skills and a collaborative spirit. I consistently seek out new challenges to enhance my personal and professional growth.</p>
+            <p className="page__text">A collaborative team player with excellent communication skills, able to perform well under pressure and take a proactive approach to problem-solving.</p>
             <br />
-            <p className="page__text">Throughout my career, I’ve honed the ability to proactively prioritize workloads, meet strict deadlines, and maintain composure in high-pressure situations. My capacity to take initiative and drive projects forward has been key to my success in the workplace.</p>
+            <p className="page__text">I am often described as enthusiastic, adaptable, and energetic. Consistently seek out new challenges to enhance my personal and professional growth.</p>
         </div>
         <div className="section-a__img">
           <img className="about__img" src={guyCoding} alt="" />
