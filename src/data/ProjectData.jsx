@@ -10,16 +10,27 @@ import library from "../images/projectPictures/Library System.png";
 import hangman from "../images/projectPictures/Hangman.png";
 import cardGame from "../images/projectPictures/Cards Game.png";
 import javaCalculator from "../images/projectPictures/Java Calculator.png";
+import brewdogPreview from "../images/projectPreviews//brewdog.gif"
+
 
 
 export const ProjectData = 
     {
         frontend: [
             {
+                project: "JavaScript Calculator",
+                title: "JavaScript Calculator",
+                thumbnail: JSCalculator,
+                preview: "",
+                alt:"",
+                link:"",
+                repo:"",
+            },
+            {
                 project: "BrewDog beer punk api",
                 title: "Brew Dog API",
                 thumbnail: beerpunk,
-                preview: "",
+                preview: brewdogPreview,
                 alt:"",
                 link:"",
                 repo:"",
@@ -51,15 +62,7 @@ export const ProjectData =
                 link:"",
                 repo:"",
             },
-            {
-                project: "JavaScript Calculator",
-                title: "JavaScript Calculator",
-                thumbnail: JSCalculator,
-                preview: "",
-                alt:"",
-                link:"",
-                repo:"",
-            },
+            
             {
                 project: "Ticket Tracker",
                 title: "React Ticket Tracker",
