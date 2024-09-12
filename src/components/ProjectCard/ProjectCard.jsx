@@ -1,10 +1,13 @@
 import "./ProjectCard.scss";
+import template from "../../images/projectPreviews/templatePreview.webp"
 
 
 
 const ProjectCard = ({title, image, site, preview}) => {
 
-
+if (preview == "") {
+  preview = template;
+}
 
   return (
     

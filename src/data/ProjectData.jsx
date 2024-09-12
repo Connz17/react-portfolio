@@ -24,7 +24,7 @@ export const ProjectData =
                 preview: "",
                 alt:"",
                 link:"",
-                repo:"",
+                repo:"https://github.com/Connz17/javaScript-calculator-project",
             },
             {
                 project: "BrewDog beer punk api",
@@ -33,7 +33,7 @@ export const ProjectData =
                 preview: brewdogPreview,
                 alt:"",
                 link:"",
-                repo:"",
+                repo:"https://github.com/Connz17/punk-api",
             },
             {
                 project: "Morse Code Translator",
@@ -42,7 +42,7 @@ export const ProjectData =
                 preview: "",
                 alt:"",
                 link:"",
-                repo:"",
+                repo:"https://github.com/Connz17/morse-code-translator",
             },
             {
                 project: "Weather App",
@@ -51,7 +51,7 @@ export const ProjectData =
                 preview: "",
                 alt:"",
                 link:"",
-                repo:"",
+                repo:"https://github.com/Connz17/weather-app",
             },
             {
                 project: "Javascript Browser Game",
@@ -60,7 +60,7 @@ export const ProjectData =
                 preview: "",
                 alt:"",
                 link:"",
-                repo:"",
+                repo:"https://github.com/Connz17/js-game-project",
             },
             
             {
@@ -70,7 +70,7 @@ export const ProjectData =
                 preview: "",
                 alt:"",
                 link:"",
-                repo:"",
+                repo:"https://github.com/Connz17/ticket-tracker",
             },
             {
                 project: "Property App",
@@ -79,7 +79,7 @@ export const ProjectData =
                 preview: "",
                 alt:"",
                 link:"",
-                repo:"",
+                repo:"https://github.com/Connz17/PropertyApp",
             }
         ], 
         backend: [
@@ -90,7 +90,7 @@ export const ProjectData =
             preview: "",
             alt:"",
             link:"",
-            repo:"",
+            repo:"https://github.com/Connz17/java-calculator",
         },
         {
             project: "Java Hangman",
@@ -99,7 +99,7 @@ export const ProjectData =
             preview: "",
             alt:"",
             link:"",
-            repo:"",
+            repo:"https://github.com/Connz17/Java-hangman",
         },
         {
             project: "Java Card Game",
@@ -108,7 +108,7 @@ export const ProjectData =
             preview: "",
             alt:"",
             link:"",
-            repo:"",
+            repo:"https://github.com/Connz17/java-card-game",
         },
         {
             project: "Java Library System",
@@ -117,7 +117,7 @@ export const ProjectData =
             preview: "",
             alt:"",
             link:"",
-            repo:"",
+            repo:"https://github.com/Connz17/library-system",
         }
         ],
         fullstack:
@@ -129,7 +129,7 @@ export const ProjectData =
                 preview: "",
                 alt:"",
                 link:"",
-                repo:"",
+                repo:"https://github.com/Connz17/darksouls-full-stack-project-frontend",
             }
         ] 
     }
