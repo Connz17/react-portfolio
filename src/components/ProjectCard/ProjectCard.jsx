@@ -3,9 +3,9 @@ import template from "../../images/projectPreviews/templatePreview.webp"
 
 
 
-const ProjectCard = ({title, image, site, preview}) => {
+const ProjectCard = ({title, image, site, preview, repo}) => {
 
-if (preview == "") {
+if (preview === "") {
   preview = template;
 }
 
@@ -16,7 +16,7 @@ if (preview == "") {
         <div>
             <h3 className="card__title">{title}</h3>
             { site && <button className="card__button">Visit Site</button> }
-            <button className="card__button">Visit Repo</button> 
+            <a href={repo} target="_blank" rel="noreferrer"><button className="card__button">Visit Repo</button></a> 
         </div>
     </div>
   )

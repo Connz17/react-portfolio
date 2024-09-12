@@ -17,9 +17,9 @@ import ProjectCard from './components/ProjectCard/ProjectCard';
 function App() {
 
   const renderProjectCards = (projects) =>
-    projects.map(({ title, thumbnail, link, preview }, id) => (
+    projects.map(({ title, thumbnail, link, preview, repo }, id) => (
       <div className="card__container" key={id}>
-        <ProjectCard title={title} image={thumbnail} site={link} preview={preview}/>
+        <ProjectCard title={title} image={thumbnail} site={link} preview={preview} repo={repo}/>
         <hr />
       </div>
     ));
