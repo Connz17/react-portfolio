@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.05e04bdb.css",
-    "main.js": "/react-portfolio/static/js/main.31edf633.js",
+    "main.css": "/react-portfolio/static/css/main.089fad14.css",
+    "main.js": "/react-portfolio/static/js/main.2c698587.js",
     "static/js/787.128fc6e9.chunk.js": "/react-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/brewdog.gif": "/react-portfolio/static/media/brewdog.04a91c56d287ec437798.gif",
+    "static/media/souls.gif": "/react-portfolio/static/media/souls.154a49a23114478b9040.gif",
+    "static/media/morse.gif": "/react-portfolio/static/media/morse.9403ae01988c508147ff.gif",
+    "static/media/weatherApp.gif": "/react-portfolio/static/media/weatherApp.7946e153b1ab7fdcd5e3.gif",
     "static/media/Pictureguy-code-img.svg": "/react-portfolio/static/media/Pictureguy-code-img.8b90df1aba3a79e190936bc10a9f3e94.svg",
     "static/media/Ticket tracker v2.png": "/react-portfolio/static/media/Ticket tracker v2.a3f4c991ee8409f63b5d.png",
     "static/media/brewdog-beerpunk-api.png": "/react-portfolio/static/media/brewdog-beerpunk-api.573ab1a6595c7e533c88.png",
@@ -28,6 +32,7 @@
     "static/media/spring-icon-svgrepo-com.svg": "/react-portfolio/static/media/spring-icon-svgrepo-com.43537145e9490c235b47444b6441c9fd.svg",
     "static/media/c-sharp-svgrepo-com (black).svg": "/react-portfolio/static/media/c-sharp-svgrepo-com (black).801ace1a6d974497a18cbfe281e492f2.svg",
     "static/media/c-sharp-svgrepo-com.svg": "/react-portfolio/static/media/c-sharp-svgrepo-com.94ad5b9ced98fffe7d038be0f41c8073.svg",
+    "static/media/templatePreview.webp": "/react-portfolio/static/media/templatePreview.858e263950c2704ddde9.webp",
     "static/media/python-svgrepo-com (black).svg": "/react-portfolio/static/media/python-svgrepo-com (black).0c6b58a3db653f84c3cfd80c22f9acce.svg",
     "static/media/java-svgrepo-com.svg": "/react-portfolio/static/media/java-svgrepo-com.e087467c93efe59eec4d16bc9cc69e2f.svg",
     "static/media/java-svgrepo-com (black).svg": "/react-portfolio/static/media/java-svgrepo-com (black).34b63988a092ededba3f399472ac992b.svg",
@@ -48,12 +53,12 @@
     "static/media/css3-svgrepo-com (black).svg": "/react-portfolio/static/media/css3-svgrepo-com (black).a1b1633b1f1614faa5eea3fa3f9e5911.svg",
     "static/media/css-3-svgrepo-com.svg": "/react-portfolio/static/media/css-3-svgrepo-com.bbb0f55c6e7e1428d1c512cd5aa49b6f.svg",
     "static/media/html-5-svgrepo-com.svg": "/react-portfolio/static/media/html-5-svgrepo-com.b92f6a1c747de9e244ba2e290e63fd32.svg",
-    "main.05e04bdb.css.map": "/react-portfolio/static/css/main.05e04bdb.css.map",
-    "main.31edf633.js.map": "/react-portfolio/static/js/main.31edf633.js.map",
+    "main.089fad14.css.map": "/react-portfolio/static/css/main.089fad14.css.map",
+    "main.2c698587.js.map": "/react-portfolio/static/js/main.2c698587.js.map",
     "787.128fc6e9.chunk.js.map": "/react-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05e04bdb.css",
-    "static/js/main.31edf633.js"
+    "static/css/main.089fad14.css",
+    "static/js/main.2c698587.js"
   ]
 }
