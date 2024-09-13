@@ -10,7 +10,10 @@ import library from "../images/projectPictures/Library System.png";
 import hangman from "../images/projectPictures/Hangman.png";
 import cardGame from "../images/projectPictures/Cards Game.png";
 import javaCalculator from "../images/projectPictures/Java Calculator.png";
-import brewdogPreview from "../images/projectPreviews//brewdog.gif"
+import brewdogPreview from "../images/projectPreviews/brewdog.gif"
+import morsePreview from "../images/projectPreviews/morse.gif"
+import weatherPreview from "../images/projectPreviews/weatherApp.gif"
+import soulsGif from "../images/projectPreviews/souls.gif"
 
 
 
@@ -39,7 +42,7 @@ export const ProjectData =
                 project: "Morse Code Translator",
                 title: "Morse Code Translator",
                 thumbnail: morseCode,
-                preview: "",
+                preview: morsePreview,
                 alt:"",
                 link:"",
                 repo:"https://github.com/Connz17/morse-code-translator",
@@ -48,7 +51,7 @@ export const ProjectData =
                 project: "Weather App",
                 title: "My Weather App",
                 thumbnail: weatherApp,
-                preview: "",
+                preview: weatherPreview,
                 alt:"",
                 link:"",
                 repo:"https://github.com/Connz17/weather-app",
@@ -126,7 +129,7 @@ export const ProjectData =
                 project: "Dark Souls",
                 title: "Dark Souls Companion App",
                 thumbnail: darkSouls,
-                preview: "",
+                preview: soulsGif,
                 alt:"",
                 link:"",
                 repo:"https://github.com/Connz17/darksouls-full-stack-project-frontend",
