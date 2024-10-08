@@ -10,6 +10,7 @@ import FrontEnd from './pages/FrontEnd/FrontEnd';
 import Projects from './pages/Projects/Projects';
 import {ProjectData} from "./data/ProjectData";
 import ProjectCard from './components/ProjectCard/ProjectCard';
+import SingleProject from './pages/SingleProject/SingleProject';
 
 
 
@@ -17,18 +18,22 @@ import ProjectCard from './components/ProjectCard/ProjectCard';
 function App() {
 
   const renderProjectCards = (projects) =>
-    projects.map(({ title, thumbnail, link, preview, repo }, id) => (
+    projects.map(({ title, thumbnail, link, preview, repo, project }, id) => (
       <div className="card__container" key={id}>
-        <ProjectCard title={title} image={thumbnail} site={link} preview={preview} repo={repo}/>
+        <ProjectCard project={project} title={title} image={thumbnail} site={link} preview={preview} repo={repo}/>
         <hr />
       </div>
     ));
+
+    
   
   const fullstackJSX = renderProjectCards(ProjectData.fullstack);
   const frontendJSX = renderProjectCards(ProjectData.frontend);
   const backendJSX = renderProjectCards(ProjectData.backend);
-  
 
+  const allProjects = [].concat(ProjectData.fullstack, ProjectData.frontend, ProjectData.backend)
+
+  
   return (
   <Router >
     <div className="App">
@@ -44,6 +49,9 @@ function App() {
         </Route>
       <Route path='/projects/full-stack'
           element={<FullStack FSprojects={fullstackJSX}/>}>
+        </Route>
+        <Route path='/:title'
+          element={<SingleProject projects={allProjects}/>}>
         </Route>
       <Route path='/skills'
           element={<Skills/>}>

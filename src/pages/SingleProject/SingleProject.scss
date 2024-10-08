@@ -1,0 +1,33 @@
+@use "../../styles/variables" as *;
+
+.topBanner {
+    border: 2px solid firebrick;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin: 2rem;
+}
+
+.screenshot__container{
+    border: 2px solid chocolate;
+    width: 50%;
+    // display: flex
+}
+
+.chevron{
+    width: 3rem;
+    height: 3rem;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+#thumb{
+    height: 5rem;
+}
+
+#screenshot{
+    width: 40rem;
+}

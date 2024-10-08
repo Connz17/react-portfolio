@@ -22,6 +22,12 @@
     bottom: 5.5rem;
     font-size: 1.7rem;
     font-family: $font-secondary;
+    color: black;
+
+    &:hover {
+        color: $light-purple;
+        text-decoration: underline;
+    }
 }
 
 .card__button{
