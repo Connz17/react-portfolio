@@ -7,14 +7,12 @@
     height: 91vh;
 }
 
+main {
+    padding-top: 7rem;
+}
+
 .typewriter{
     display: inline-block;
-    margin: 5.7rem 0;
-    border: solid black;
-    border-width: 30px 15px;
-    border-radius: 10px;
-    padding: 6.7rem 5rem;
-    background-color: #0078d7;
 }
 
 .titleContainer{
@@ -24,9 +22,17 @@
     white-space: nowrap;
     width: 0;
     animation: typing 2.5s steps(45, end) 0.5s forwards,
-            blink .8s infinite;
 }
 
+.tcOne{
+    overflow: hidden;
+    border-right: .17em solid $gold;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 3s steps(50, end) 0.5s forwards,
+            blink .8s infinite;
+    animation-delay: 3s;
+}
 
 .homeImg{
     margin-top: 5rem;
@@ -37,10 +43,14 @@
 #containerTwo{
     display: none;
 }
-
+.tcTwo{
+    display: none;
+}
 #containerThree{
     display: none;
-
+}
+.tcThree {
+    display: none;
 }
 
 @keyframes typing {
@@ -55,10 +65,7 @@
 
 @media only screen and (max-width: 1027px) {
     //max width is 992 and everything down
-    .typewriter{
-        padding: 3.5rem 2rem;
-        margin: 2.5rem 0;
-    }
+
 
     .homeImg{
         margin-top: 3rem;
@@ -68,8 +75,21 @@
     #containerOne{
         display: none;
     }
+    .tcOne{
+        display: none;
+    }
     #containerTwo{
         display: block;
+    }
+    .tcTwo{
+        display: block;
+        overflow: hidden;
+        border-right: .17em solid $gold;
+        white-space: nowrap;
+        width: 0;
+        animation: typing 3s steps(50, end) 0.5s forwards,
+            blink .8s infinite;
+        animation-delay: 3s;
     }
 }
     
@@ -82,14 +102,9 @@
         width: 100%;
     }
 
-    .typewriter{
-        padding: 9rem 0.2rem;
-        margin: 2rem auto;
-    }
 
     .titleContainer{
-        animation: typing 2s steps(35, end) 0.5s forwards,
-        blink .8s infinite;
+        animation: typing 1.5s steps(35, end) 0.5s forwards,
     }
 
     .homeImg{
@@ -100,24 +115,49 @@
     #containerOne{
         display: none;
     }
+    .tcOne{
+        display: none;
+    }
 
     #containerTwo{
         display: none;
     }
+    .tcTwo{
+        display: none;
+    }
     #containerThree{
         display: block;
+
+    }
+    .tcThree {
+        display: block;
+        overflow: hidden;
+        border-right: .17em solid $gold;
+        white-space: nowrap;
+        width: 0;
+        animation: typing 2.5s steps(45, end) 0.5s forwards,
+                blink .8s infinite;
+        animation-delay: 2.5s;
     }
 }
 
 @media only screen and (max-width: 450px) {
     .typewriter{
         border-width: 20px 5px;
-        padding: 8.5rem 0rem;
     }
 
     .titleContainer{
-        animation: typing 1.5s steps(30, end) 0.5s forwards,
-        blink .8s infinite;
+        animation: typing 1.3s steps(30, end) 0.5s forwards,
+    }
+
+    .tcThree {
+        overflow: hidden;
+        border-right: .17em solid $gold;
+        white-space: nowrap;
+        width: 0;
+        animation: typing 2s steps(35, end) 0.5s forwards,
+                blink .8s infinite;
+        animation-delay: 2s;
     }
 
 }
