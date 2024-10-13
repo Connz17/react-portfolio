@@ -18,9 +18,13 @@
 .chevron{
     width: 3rem;
     height: 3rem;
+    color: blue;
+    fill: green;
 
     &:hover{
         cursor: pointer;
+        color: $purple;
+        fill: $purple;
     }
 }
 

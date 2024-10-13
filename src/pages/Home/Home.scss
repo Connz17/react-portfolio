@@ -7,7 +7,7 @@
     height: 91vh;
 }
 
-main {
+section {
     padding-top: 7rem;
 }
 
@@ -40,18 +40,14 @@ main {
     width: auto;
 }
 
-#containerTwo{
+.containerTwo{
     display: none;
 }
-.tcTwo{
+
+.containerThree{
     display: none;
 }
-#containerThree{
-    display: none;
-}
-.tcThree {
-    display: none;
-}
+
 
 @keyframes typing {
     from { width: 0 }
@@ -72,17 +68,14 @@ main {
         height: 12rem;
     }
     
-    #containerOne{
+    .containerOne{
         display: none;
     }
-    .tcOne{
-        display: none;
-    }
-    #containerTwo{
+
+    .containerTwo{
         display: block;
     }
     .tcTwo{
-        display: block;
         overflow: hidden;
         border-right: .17em solid $gold;
         white-space: nowrap;
@@ -112,25 +105,20 @@ main {
         height: 10rem;
     }
     
-    #containerOne{
-        display: none;
-    }
-    .tcOne{
+    .containerOne{
         display: none;
     }
 
-    #containerTwo{
+
+    .containerTwo{
         display: none;
     }
-    .tcTwo{
-        display: none;
-    }
-    #containerThree{
+
+    .containerThree{
         display: block;
 
     }
     .tcThree {
-        display: block;
         overflow: hidden;
         border-right: .17em solid $gold;
         white-space: nowrap;
