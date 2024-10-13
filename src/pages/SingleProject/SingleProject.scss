@@ -9,10 +9,17 @@
     margin: 2rem;
 }
 
+.project__section{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
 .screenshot__container{
     border: 2px solid chocolate;
     width: 50%;
-    // display: flex
+    // display: inline-block;
 }
 
 .chevron{
@@ -26,6 +33,10 @@
         color: $purple;
         fill: $purple;
     }
+}
+
+.information__container{
+    border: 2px solid olivedrab;
 }
 
 #thumb{

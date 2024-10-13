@@ -25,17 +25,15 @@ const SingleProject = ({projects}) => {
             <img id="thumb" src={selectedP[0].thumbnail} alt="" />
             <h2>{selectedP[0].title}</h2>
         </div>
-        <main>
+        <main className="project__section">
             <div className="screenshot__container">
             <img id="screenshot" src={selectedP[0].thumbnail} alt=""/>
+            <br />
             <BiChevronLeftSquare /> <BiChevronRightSquare />
             </div>
-            <div>
-            <FaChevronCircleRight />
-            <TiChevronRightOutline />
+            <div className="information__container">
             <TabButtons project={selectedP[0]} activeTab={activeTab} setActiveTab={setActiveTab}/>
             <TabContent project={selectedP[0]} activeTab={activeTab}/>
-            
             </div>
         </main>
         </IconContext.Provider>
