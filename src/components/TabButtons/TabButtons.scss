@@ -1,3 +1,10 @@
+@use "../../styles/variables" as *;
+
+.tab__header li {
+border-top-right-radius: 50%;
+border-top-left-radius: 50%;
+
+}
 .tab-list {
     width: fit-content;
     min-width: 100%;
@@ -17,17 +24,18 @@
 .tab__button {
     font: inherit;
     padding: 0.75em 1em;
-    background-color: transparent;
-    border: 2px solid blue;
+    border: 2px solid $light-purple;
     border-width: 0 0 2px;
     cursor: pointer;
     color: inherit;
     white-space: nowrap;
 }
 .tab__button:not(.active):hover {
-    color: violet;
+    color: $gold;
 }
 .active {
-    color: coral;
-    border-color: burlywood;
+    color: #f8f9fc;
+    border-color: $gold;
+    background-color: $light-purple;
+
 }

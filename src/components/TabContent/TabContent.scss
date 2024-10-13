@@ -1,6 +1,11 @@
+@use "../../styles/variables" as *;
+
 .tab__content{
+    height: fit-content;
     margin-top: 1em;
     padding: 1em;
     background-color: lightblue;
-    border-radius: .5em;
+    // border-radius: .5em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: .5em;    
 }

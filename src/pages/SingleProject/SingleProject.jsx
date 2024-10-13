@@ -36,6 +36,9 @@ const SingleProject = ({projects}) => {
             <TabContent project={selectedP[0]} activeTab={activeTab}/>
             </div>
         </main>
+        <br />
+            { selectedP[0].site && <button className="card__button">Visit Site</button> }
+            <a href={selectedP[0].repo} target="_blank" rel="noreferrer"><button className="card__button">Visit Repo</button></a> 
         </IconContext.Provider>
     </div>
   )
