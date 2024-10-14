@@ -2,8 +2,6 @@ import { useParams } from "react-router-dom"
 import Nav from "../../containers/Nav/Nav"
 import "./SingleProject.scss"
 import { IconContext } from "react-icons";
-import { FaChevronCircleRight } from "react-icons/fa";
-import { TiChevronRightOutline } from "react-icons/ti";
 import { BiChevronLeftSquare, BiChevronRightSquare  } from "react-icons/bi";
 import TabButtons from "../../components/TabButtons/TabButtons";
 import TabContent from "../../components/TabContent/TabContent";

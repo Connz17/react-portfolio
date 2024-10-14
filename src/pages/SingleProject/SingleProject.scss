@@ -19,14 +19,12 @@
 .screenshot__container{
     border: 2px solid chocolate;
     width: 50%;
-    // display: inline-block;
 }
 
 .chevron{
     width: 3rem;
     height: 3rem;
-    color: blue;
-    fill: green;
+    fill: $indigo;
 
     &:hover{
         cursor: pointer;
@@ -35,16 +33,18 @@
     }
 }
 
-.information__container{
-    border: 2px solid olivedrab;
-}
+// .information__container{
+//     // border: 2px solid olivedrab;
+// }
 
 #thumb{
     height: 5rem;
+    border-radius: 1em;
 }
 
 #screenshot{
     width: 40rem;
+    border-radius: .5em;
 }
 
 .card__button{

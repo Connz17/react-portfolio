@@ -1,11 +1,14 @@
 @use "../../styles/variables" as *;
 
 .tab__content{
-    height: fit-content;
-    margin-top: 1em;
-    padding: 1em;
-    background-color: lightblue;
-    // border-radius: .5em;
+    height: 20em;
+    margin-top: .5em;
+    padding: 2em 1em;
+    background-color: rgba(173, 216, 230, 0.568);
     border-bottom-right-radius: 1em;
-    border-bottom-left-radius: .5em;    
+    border-bottom-left-radius: 1em;   
+}
+
+p {
+    font-family: $font-secondary;
 }

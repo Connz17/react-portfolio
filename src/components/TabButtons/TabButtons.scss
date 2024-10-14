@@ -1,8 +1,8 @@
 @use "../../styles/variables" as *;
 
 .tab__header li {
-border-top-right-radius: 50%;
-border-top-left-radius: 50%;
+border-top-right-radius: 70%;
+border-top-left-radius: 70%;
 
 }
 .tab-list {
@@ -12,7 +12,8 @@ border-top-left-radius: 50%;
     gap: .5em;
     margin: 0;
     padding: 0;
-    border-bottom: 2px solid #eee;
+    // border: 2px solid $light-purple;
+    // // border-bottom: 2px solid #eeee;
     color: #888;
 }
 
@@ -37,5 +38,4 @@ border-top-left-radius: 50%;
     color: #f8f9fc;
     border-color: $gold;
     background-color: $light-purple;
-
 }
