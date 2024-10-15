@@ -14,6 +14,15 @@ import brewdogPreview from "../images/projectPreviews/brewdog.gif"
 import morsePreview from "../images/projectPreviews/morse.gif"
 import weatherPreview from "../images/projectPreviews/weatherApp.gif"
 import soulsGif from "../images/projectPreviews/souls.gif"
+import beerScreenshot from "../images/screenshots/BrewDog/Screenshot_20230209_172800.png"
+import beerScreenshot2 from "../images/screenshots/BrewDog/Screenshot_20230209_173340.png"
+import beerScreenshot3 from "../images/screenshots/BrewDog/Screenshot_20230209_173446.png"
+import beerScreenshot4 from "../images/screenshots/BrewDog/Screenshot_20230209_173608.png"
+import beerScreenshot5 from "../images/screenshots/BrewDog/Screenshot_20230209_173727.png"
+import beerScreenshot6 from "../images/screenshots/BrewDog/Screenshot_20230209_173837.png"
+import beerScreenshot7 from "../images/screenshots/BrewDog/Screenshot_20230209_173939.png"
+import beerScreenshot8 from "../images/screenshots/BrewDog/Screenshot_20230209_174039.png"
+import beerScreenshot9 from "../images/screenshots/BrewDog/Screenshot_20230209_174250.png"
 
 
 
@@ -23,8 +32,9 @@ export const ProjectData =
             {
                 project: "JavaScript Calculator",
                 title: "JavaScript Calculator",
-                description: "",
-                techStack:"",
+                'Project Information': "",
+                'Languages Used':[],
+                'Future Scope': "",
                 thumbnail: JSCalculator,
                 screenshots:[],
                 preview: "",
@@ -35,10 +45,11 @@ export const ProjectData =
             {
                 project: "BrewDog beer punk api",
                 title: "Brew Dog API",
-                description: "",
-                techStack:"",
+                'Project Information': "",
+                'Languages Used':["React", "SCSS"],
+                'Future Scope': "",
                 thumbnail: beerpunk,
-                screenshots:[],
+                screenshots:[beerScreenshot, beerScreenshot2, beerScreenshot3, beerScreenshot4, beerScreenshot5, beerScreenshot6, beerScreenshot7, beerScreenshot8, beerScreenshot9],
                 preview: brewdogPreview,
                 alt:"",
                 link:"",
@@ -47,8 +58,9 @@ export const ProjectData =
             {
                 project: "Morse Code Translator",
                 title: "Morse Code Translator",
-                description: "",
-                techStack:"",
+                'Project Information': "",
+                'Languages Used':[],
+                'Future Scope': "",
                 thumbnail: morseCode,
                 screenshots:[],
                 preview: morsePreview,
@@ -59,8 +71,9 @@ export const ProjectData =
             {
                 project: "Weather App",
                 title: "My Weather App",
-                description: "",
-                techStack:"",
+                'Project Information': "",
+                'Languages Used':[],
+                'Future Scope': "",
                 thumbnail: weatherApp,
                 screenshots:[],
                 preview: weatherPreview,
@@ -71,8 +84,9 @@ export const ProjectData =
             {
                 project: "Javascript Browser Game",
                 title: "Javascript Maze Game",
-                description: "",
-                techStack:"",
+                'Project Information': "",
+                'Languages Used':[],
+                'Future Scope': "",
                 thumbnail: JSMazeGame,
                 screenshots:[],
                 preview: "",
@@ -84,8 +98,9 @@ export const ProjectData =
             {
                 project: "Ticket Tracker",
                 title: "React Ticket Tracker",
-                description: "",
-                techStack:"",
+                'Project Information': "",
+                'Languages Used':[],
+                'Future Scope': "",
                 thumbnail: ticketTracker,
                 screenshots:[],
                 preview: "",
@@ -96,8 +111,9 @@ export const ProjectData =
             {
                 project: "Property App",
                 title: "Perfect Properties",
-                description: "",
-                techStack:"",
+                'Project Information': "",
+                'Languages Used':[],
+                'Future Scope': "",
                 thumbnail: propertyApp,
                 screenshots:[],
                 preview: "",
@@ -110,8 +126,9 @@ export const ProjectData =
         {
             project: "Java Calculator",
             title: "Java Calculator",
-            description: "",
-            techStack:"",
+            'Project Information': "",
+            'Languages Used':[],
+            'Future Scope': "",
             thumbnail: javaCalculator,
             screenshots:[],
             preview: "",
@@ -122,8 +139,9 @@ export const ProjectData =
         {
             project: "Java Hangman",
             title: "Java Hangman Game",
-            description: "",
-            techStack:"",
+            'Project Information': "",
+            'Languages Used':[],
+            'Future Scope': "",
             thumbnail: hangman,
             screenshots:[],
             preview: "",
@@ -134,8 +152,9 @@ export const ProjectData =
         {
             project: "Java Card Game",
             title: "Java Card Game",
-            description: "",
-            techStack:"",
+            'Project Information': "",
+            'Languages Used':[],
+            'Future Scope': "",
             thumbnail: cardGame,
             screenshots:[],
             preview: "",
@@ -146,8 +165,9 @@ export const ProjectData =
         {
             project: "Java Library System",
             title: "Java Library",
-            description: "",
-            techStack:"",
+            'Project Information': "",
+            'Languages Used':[],
+            'Future Scope': "",
             thumbnail: library,
             screenshots:[],
             preview: "",
@@ -161,8 +181,9 @@ export const ProjectData =
             {
                 project: "Dark Souls",
                 title: "Dark Souls Companion App",
-                description: "",
-                techStack:"",
+                'Project Information': "",
+                'Languages Used':[],
+                'Future Scope': "",
                 thumbnail: darkSouls,
                 screenshots:[],
                 preview: soulsGif,

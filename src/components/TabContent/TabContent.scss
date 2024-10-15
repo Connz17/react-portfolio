@@ -2,13 +2,19 @@
 
 .tab__content{
     height: 20em;
-    margin-top: .5em;
+    width: 100%;
     padding: 2em 1em;
-    background-color: rgba(173, 216, 230, 0.568);
+    background-color: #cccccc57;
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;   
+}
+
+.techStack{
+    display: block;
+    margin-bottom: 1em;
 }
 
 p {
     font-family: $font-secondary;
 }
+

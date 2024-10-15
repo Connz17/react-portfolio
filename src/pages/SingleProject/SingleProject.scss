@@ -1,7 +1,6 @@
 @use "../../styles/variables" as *;
 
 .topBanner {
-    border: 2px solid firebrick;
     height: 7rem;
     display: flex;
     align-items: center;
@@ -17,7 +16,6 @@
 }
 
 .screenshot__container{
-    border: 2px solid chocolate;
     width: 50%;
 }
 
@@ -33,9 +31,18 @@
     }
 }
 
-// .information__container{
-//     // border: 2px solid olivedrab;
-// }
+.counters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.information__container {
+    width: 40%;
+}
+
+
 
 #thumb{
     height: 5rem;

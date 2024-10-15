@@ -10,10 +10,27 @@ import { useState } from "react";
 const SingleProject = ({projects}) => {
 
     const {title} = useParams();
-    const [activeTab, setActiveTab] = useState("title");
+    const [activeTab, setActiveTab] = useState("Project Information");
+    const [counter, setCounter] = useState(0);
 
     const selectedP = projects.filter((project) => project.title == title)
 
+    
+    const handleIncrement = () => {
+        if (counter === selectedP[0].screenshots.length - 1) {
+            setCounter(0);
+        } else {
+            setCounter(counter + 1);
+        }
+    };
+    
+      const handleDecrement = () => {
+        if (counter === 0) {
+            setCounter(selectedP[0].screenshots.length - 1);
+        } else {
+            setCounter(counter - 1);
+        }
+    };
 
   return (
     <div>
@@ -25,9 +42,13 @@ const SingleProject = ({projects}) => {
         </div>
         <main className="project__section">
             <div className="screenshot__container">
-            <img id="screenshot" src={selectedP[0].thumbnail} alt=""/>
+            <img id="screenshot" src={selectedP[0].screenshots[counter]} alt=""/>
             <br />
-            <BiChevronLeftSquare /> <BiChevronRightSquare />
+            <div className="counters">
+                <BiChevronLeftSquare onClick={handleDecrement} /> 
+                <p className="count"> {counter + 1}/{selectedP[0].screenshots.length}</p> 
+                <BiChevronRightSquare onClick={handleIncrement}/>
+            </div>
             </div>
             <div className="information__container">
             <TabButtons project={selectedP[0]} activeTab={activeTab} setActiveTab={setActiveTab}/>

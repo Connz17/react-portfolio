@@ -7,9 +7,7 @@ const TabButtons = ({ activeTab, setActiveTab }) => {
     const tabs = [
         "Project Information",
         "Languages Used",
-        "Extra / Future Scope",
-        "repo",
-        "title",
+        "Future Scope",
     ];
 
   return (
@@ -18,10 +16,11 @@ const TabButtons = ({ activeTab, setActiveTab }) => {
             {tabs.map((tab, index) => (
             <li
             key={index}
-            className={`tab__button ${activeTab === tab ? "active" : ""}`}
+            className={`tab__button ${activeTab === tab ? "selected" : ""}`}
             onClick={() => setActiveTab(tab)}>
             {tab}
             </li>
+            
         ))}
         </ul>
     </div>

@@ -1,8 +1,9 @@
 @use "../../styles/variables" as *;
 
 .tab__header li {
-border-top-right-radius: 70%;
-border-top-left-radius: 70%;
+border-top-right-radius: 2em;
+border-top-left-radius: 2em;
+width: 100%;
 
 }
 .tab-list {
@@ -14,12 +15,11 @@ border-top-left-radius: 70%;
     padding: 0;
     // border: 2px solid $light-purple;
     // // border-bottom: 2px solid #eeee;
-    color: #888;
+    color: #252831;
 }
 
 .tab-list li {
     display: block;
-    margin-bottom: -2px;
 }
 
 .tab__button {
@@ -31,10 +31,10 @@ border-top-left-radius: 70%;
     color: inherit;
     white-space: nowrap;
 }
-.tab__button:not(.active):hover {
+.tab__button:not(.selected):hover {
     color: $gold;
 }
-.active {
+.selected {
     color: #f8f9fc;
     border-color: $gold;
     background-color: $light-purple;
