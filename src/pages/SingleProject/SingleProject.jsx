@@ -44,11 +44,13 @@ const SingleProject = ({projects}) => {
             <div className="screenshot__container">
             <img id="screenshot" src={selectedP[0].screenshots[counter]} alt=""/>
             <br />
-            <div className="counters">
-                <BiChevronLeftSquare onClick={handleDecrement} /> 
+            {selectedP[0].screenshots.length > 0 && 
+            <div className="counters"> 
+                <BiChevronLeftSquare onClick={handleDecrement} />
                 <p className="count"> {counter + 1}/{selectedP[0].screenshots.length}</p> 
                 <BiChevronRightSquare onClick={handleIncrement}/>
             </div>
+            }
             </div>
             <div className="information__container">
             <TabButtons project={selectedP[0]} activeTab={activeTab} setActiveTab={setActiveTab}/>

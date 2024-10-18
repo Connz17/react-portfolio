@@ -14,15 +14,28 @@ import brewdogPreview from "../images/projectPreviews/brewdog.gif"
 import morsePreview from "../images/projectPreviews/morse.gif"
 import weatherPreview from "../images/projectPreviews/weatherApp.gif"
 import soulsGif from "../images/projectPreviews/souls.gif"
-import beerScreenshot from "../images/screenshots/BrewDog/Screenshot_20230209_172800.png"
-import beerScreenshot2 from "../images/screenshots/BrewDog/Screenshot_20230209_173340.png"
-import beerScreenshot3 from "../images/screenshots/BrewDog/Screenshot_20230209_173446.png"
-import beerScreenshot4 from "../images/screenshots/BrewDog/Screenshot_20230209_173608.png"
-import beerScreenshot5 from "../images/screenshots/BrewDog/Screenshot_20230209_173727.png"
-import beerScreenshot6 from "../images/screenshots/BrewDog/Screenshot_20230209_173837.png"
-import beerScreenshot7 from "../images/screenshots/BrewDog/Screenshot_20230209_173939.png"
-import beerScreenshot8 from "../images/screenshots/BrewDog/Screenshot_20230209_174039.png"
-import beerScreenshot9 from "../images/screenshots/BrewDog/Screenshot_20230209_174250.png"
+
+// Automatically import all images from the screenshots directory
+const importBeers = (r) => r.keys().map(r);
+const beerScreenshots = importBeers(require.context('../images/screenshots/BrewDog', false, /\.(png|jpe?g|svg)$/));
+
+const importMorse = (r) => r.keys().map(r);
+const morseScreenshots = importMorse(require.context('../images/screenshots/MorseCode', false, /\.(png|jpe?g|svg)$/));
+
+const importSouls = (r) => r.keys().map(r);
+const soulsScreenshots = importSouls(require.context('../images/screenshots/DarkSouls', false, /\.(png|jpe?g|svg)$/));
+
+const importLMS = (r) => r.keys().map(r);
+const LMSScreenshots = importLMS(require.context('../images/screenshots/LibrarySystem', false, /\.(png|jpe?g|svg)$/));
+
+const importMaze = (r) => r.keys().map(r);
+const mazeScreenshots = importMaze(require.context('../images/screenshots/MazeGame', false, /\.(png|jpe?g|svg)$/));
+
+const importTT = (r) => r.keys().map(r);
+const ticketScreenshots = importTT(require.context('../images/screenshots/TicketTracker', false, /\.(png|jpe?g|svg)$/));
+
+const importWeather = (r) => r.keys().map(r);
+const weatherScreenshots = importWeather(require.context('../images/screenshots/WeatherApp', false, /\.(png|jpe?g|svg)$/));
 
 
 
@@ -33,8 +46,8 @@ export const ProjectData =
                 project: "JavaScript Calculator",
                 title: "JavaScript Calculator",
                 'Project Information': "",
-                'Languages Used':[],
-                'Future Scope': "",
+                'Languages Used':["HTML", "CSS", "JavaScript"],
+                'Future Scope': `For the next iterations of this project i'd like to add a notes section to enable users to keep track of calculations. I'd also input a change theme button `,
                 thumbnail: JSCalculator,
                 screenshots:[],
                 preview: "",
@@ -49,7 +62,7 @@ export const ProjectData =
                 'Languages Used':["React", "SCSS"],
                 'Future Scope': "",
                 thumbnail: beerpunk,
-                screenshots:[beerScreenshot, beerScreenshot2, beerScreenshot3, beerScreenshot4, beerScreenshot5, beerScreenshot6, beerScreenshot7, beerScreenshot8, beerScreenshot9],
+                screenshots:beerScreenshots,
                 preview: brewdogPreview,
                 alt:"",
                 link:"",
@@ -59,10 +72,10 @@ export const ProjectData =
                 project: "Morse Code Translator",
                 title: "Morse Code Translator",
                 'Project Information': "",
-                'Languages Used':[],
+                'Languages Used':["HTML", "CSS", "JavaScript"],
                 'Future Scope': "",
                 thumbnail: morseCode,
-                screenshots:[],
+                screenshots:morseScreenshots,
                 preview: morsePreview,
                 alt:"",
                 link:"",
@@ -72,10 +85,10 @@ export const ProjectData =
                 project: "Weather App",
                 title: "My Weather App",
                 'Project Information': "",
-                'Languages Used':[],
+                'Languages Used':["React", "SCSS"],
                 'Future Scope': "",
                 thumbnail: weatherApp,
-                screenshots:[],
+                screenshots:weatherScreenshots,
                 preview: weatherPreview,
                 alt:"",
                 link:"",
@@ -85,10 +98,10 @@ export const ProjectData =
                 project: "Javascript Browser Game",
                 title: "Javascript Maze Game",
                 'Project Information': "",
-                'Languages Used':[],
+                'Languages Used':["JavaScript", "HTML", "SCSS"],
                 'Future Scope': "",
                 thumbnail: JSMazeGame,
-                screenshots:[],
+                screenshots:mazeScreenshots,
                 preview: "",
                 alt:"",
                 link:"",
@@ -99,10 +112,10 @@ export const ProjectData =
                 project: "Ticket Tracker",
                 title: "React Ticket Tracker",
                 'Project Information': "",
-                'Languages Used':[],
+                'Languages Used':["React", "SCSS"],
                 'Future Scope': "",
                 thumbnail: ticketTracker,
-                screenshots:[],
+                screenshots:ticketScreenshots,
                 preview: "",
                 alt:"",
                 link:"",
@@ -112,10 +125,10 @@ export const ProjectData =
                 project: "Property App",
                 title: "Perfect Properties",
                 'Project Information': "",
-                'Languages Used':[],
+                'Languages Used':["React", "SCSS", "Firebase"],
                 'Future Scope': "",
                 thumbnail: propertyApp,
-                screenshots:[],
+                screenshots:[""],
                 preview: "",
                 alt:"",
                 link:"",
@@ -127,7 +140,7 @@ export const ProjectData =
             project: "Java Calculator",
             title: "Java Calculator",
             'Project Information': "",
-            'Languages Used':[],
+            'Languages Used':["Java"],
             'Future Scope': "",
             thumbnail: javaCalculator,
             screenshots:[],
@@ -140,7 +153,7 @@ export const ProjectData =
             project: "Java Hangman",
             title: "Java Hangman Game",
             'Project Information': "",
-            'Languages Used':[],
+            'Languages Used':["Java"],
             'Future Scope': "",
             thumbnail: hangman,
             screenshots:[],
@@ -153,7 +166,7 @@ export const ProjectData =
             project: "Java Card Game",
             title: "Java Card Game",
             'Project Information': "",
-            'Languages Used':[],
+            'Languages Used':["Java"],
             'Future Scope': "",
             thumbnail: cardGame,
             screenshots:[],
@@ -166,10 +179,10 @@ export const ProjectData =
             project: "Java Library System",
             title: "Java Library",
             'Project Information': "",
-            'Languages Used':[],
+            'Languages Used':["Java"],
             'Future Scope': "",
             thumbnail: library,
-            screenshots:[],
+            screenshots:LMSScreenshots,
             preview: "",
             alt:"",
             link:"",
@@ -182,10 +195,10 @@ export const ProjectData =
                 project: "Dark Souls",
                 title: "Dark Souls Companion App",
                 'Project Information': "",
-                'Languages Used':[],
+                'Languages Used':["React", "SCSS", "Java", "Spring", "SQL"],
                 'Future Scope': "",
                 thumbnail: darkSouls,
-                screenshots:[],
+                screenshots:soulsScreenshots,
                 preview: soulsGif,
                 alt:"",
                 link:"",

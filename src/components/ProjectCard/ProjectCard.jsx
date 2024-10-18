@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 
-const ProjectCard = ({title, image, site, preview, repo, project}) => {
+const ProjectCard = ({title, image, preview}) => {
 
 if (preview === "") {
   preview = template;
