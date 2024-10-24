@@ -45,12 +45,12 @@ export const ProjectData =
             {
                 project: "JavaScript Calculator",
                 title: "JavaScript Calculator",
-                'Project Information': `The brief for this project was to make a web-based calculator using vanilla JavaScript. 
+                'Project Information': `### Overview\n\nThis project is a **vanilla JavaScript** calculator. 
+                The brief for this project was to make a web-based calculator using vanilla JavaScript. 
                     The calculator needed to handle user inputs and give the correct output based on the numbers entered and the operation selected. 
                     The advanced goal was to allow the calculator to perform chain calculations. Two key elements in programming this calculator are:
                     1) The switch case that runs the correct mathematical operation based on user selection.
                     2) The output screen, which displays the current number selection in the bottom half of the screen and updates to show the operation selected, moving the number to the top half of the screen and updating the bottom with the second number inputted. 
-                    
                     A cool feature I implemented is keyboard functionality, allowing users to input numbers and select operations using their keyboard.`,
                 'Languages Used':["HTML", "CSS", "JavaScript"],
                 'Future Scope': `For the next version/iteration of this project, I'd like to add a notes section to enable users to keep track of their calculations.
@@ -213,3 +213,4 @@ export const ProjectData =
             }
         ] 
     }
+

@@ -1,7 +1,7 @@
 import './TabContent.scss';
-
-
 import React from 'react'
+import ReactMarkdown from 'react-markdown';
+
 
 const TabContent = ({project, activeTab}) => {
 
@@ -19,7 +19,7 @@ const TabContent = ({project, activeTab}) => {
                     </li>
                 )}
                 </ul>
-                :<p>{project[activeTab]}</p>
+                :<ReactMarkdown>{project[activeTab]}</ReactMarkdown>
                 }
             </div>
         </div>

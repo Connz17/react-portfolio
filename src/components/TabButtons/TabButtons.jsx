@@ -1,5 +1,4 @@
 import "./TabButtons.scss";
-
 import React from "react";
 
 const TabButtons = ({ activeTab, setActiveTab }) => {
