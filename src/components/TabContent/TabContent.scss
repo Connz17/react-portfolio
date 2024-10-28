@@ -1,20 +1,47 @@
 @use "../../styles/variables" as *;
 
 .tab__content{
-    height: 20em;
+    height: 23em;
     width: 100%;
-    padding: 2em 1em;
+    padding: 1em 1em;
     background-color: #cccccc57;
     border-bottom-right-radius: 1em;
-    border-bottom-left-radius: 1em;   
+    border-bottom-left-radius: 1em; 
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar{
+        width: 0.5em;
+
+        &-thumb{
+            background: $indigo;
+            border-radius: 50px;
+            
+        }
+    }
+    
 }
 
-.techStack{
+#techStack{
     display: block;
     margin-bottom: 1em;
+    margin: 1em 0em;
 }
 
-p {
+.projectContent {
     font-family: $font-secondary;
+    
+    
+
+
+    & h4{
+        margin-top: 0.4em;
+        
+        
+    }
+
+    & li{
+        margin-left: 2em;
+       
+    }
 }
 

@@ -40,177 +40,187 @@ const weatherScreenshots = importWeather(require.context('../images/screenshots/
 
 
 export const ProjectData = 
+{
+frontend: [
     {
-        frontend: [
-            {
-                project: "JavaScript Calculator",
-                title: "JavaScript Calculator",
-                'Project Information': `### Overview\n\nThis project is a **vanilla JavaScript** calculator. 
-                The brief for this project was to make a web-based calculator using vanilla JavaScript. 
-                    The calculator needed to handle user inputs and give the correct output based on the numbers entered and the operation selected. 
-                    The advanced goal was to allow the calculator to perform chain calculations. Two key elements in programming this calculator are:
-                    1) The switch case that runs the correct mathematical operation based on user selection.
-                    2) The output screen, which displays the current number selection in the bottom half of the screen and updates to show the operation selected, moving the number to the top half of the screen and updating the bottom with the second number inputted. 
-                    A cool feature I implemented is keyboard functionality, allowing users to input numbers and select operations using their keyboard.`,
-                'Languages Used':["HTML", "CSS", "JavaScript"],
-                'Future Scope': `For the next version/iteration of this project, I'd like to add a notes section to enable users to keep track of their calculations.
-                    I'd also add a "change theme" button, which, when pressed, changes the colour scheme and theme of the calculator.`,
-                thumbnail: JSCalculator,
-                screenshots:[],
-                preview: "",
-                alt:"",
-                link:"",
-                repo:"https://github.com/Connz17/javaScript-calculator-project",
-            },
-            {
-                project: "BrewDog beer punk api",
-                title: "Brew Dog API",
-                'Project Information': "",
-                'Languages Used':["React", "SCSS"],
-                'Future Scope': "",
-                thumbnail: beerpunk,
-                screenshots:beerScreenshots,
-                preview: brewdogPreview,
-                alt:"",
-                link:"",
-                repo:"https://github.com/Connz17/punk-api",
-            },
-            {
-                project: "Morse Code Translator",
-                title: "Morse Code Translator",
-                'Project Information': "",
-                'Languages Used':["HTML", "CSS", "JavaScript"],
-                'Future Scope': "",
-                thumbnail: morseCode,
-                screenshots:morseScreenshots,
-                preview: morsePreview,
-                alt:"",
-                link:"",
-                repo:"https://github.com/Connz17/morse-code-translator",
-            },
-            {
-                project: "Weather App",
-                title: "My Weather App",
-                'Project Information': "",
-                'Languages Used':["React", "SCSS"],
-                'Future Scope': "",
-                thumbnail: weatherApp,
-                screenshots:weatherScreenshots,
-                preview: weatherPreview,
-                alt:"",
-                link:"",
-                repo:"https://github.com/Connz17/weather-app",
-            },
-            {
-                project: "Javascript Browser Game",
-                title: "Javascript Maze Game",
-                'Project Information': "",
-                'Languages Used':["JavaScript", "HTML", "SCSS"],
-                'Future Scope': "",
-                thumbnail: JSMazeGame,
-                screenshots:mazeScreenshots,
-                preview: "",
-                alt:"",
-                link:"",
-                repo:"https://github.com/Connz17/js-game-project",
-            },
-            
-            {
-                project: "Ticket Tracker",
-                title: "React Ticket Tracker",
-                'Project Information': "",
-                'Languages Used':["React", "SCSS"],
-                'Future Scope': "",
-                thumbnail: ticketTracker,
-                screenshots:ticketScreenshots,
-                preview: "",
-                alt:"",
-                link:"",
-                repo:"https://github.com/Connz17/ticket-tracker",
-            },
-            {
-                project: "Property App",
-                title: "Perfect Properties",
-                'Project Information': "",
-                'Languages Used':["React", "SCSS", "Firebase"],
-                'Future Scope': "",
-                thumbnail: propertyApp,
-                screenshots:[""],
-                preview: "",
-                alt:"",
-                link:"",
-                repo:"https://github.com/Connz17/PropertyApp",
-            }
-        ], 
-        backend: [
-        {
-            project: "Java Calculator",
-            title: "Java Calculator",
-            'Project Information': "",
-            'Languages Used':["Java"],
-            'Future Scope': "",
-            thumbnail: javaCalculator,
-            screenshots:[],
-            preview: "",
-            alt:"",
-            link:"",
-            repo:"https://github.com/Connz17/java-calculator",
-        },
-        {
-            project: "Java Hangman",
-            title: "Java Hangman Game",
-            'Project Information': "",
-            'Languages Used':["Java"],
-            'Future Scope': "",
-            thumbnail: hangman,
-            screenshots:[],
-            preview: "",
-            alt:"",
-            link:"",
-            repo:"https://github.com/Connz17/Java-hangman",
-        },
-        {
-            project: "Java Card Game",
-            title: "Java Card Game",
-            'Project Information': "",
-            'Languages Used':["Java"],
-            'Future Scope': "",
-            thumbnail: cardGame,
-            screenshots:[],
-            preview: "",
-            alt:"",
-            link:"",
-            repo:"https://github.com/Connz17/java-card-game",
-        },
-        {
-            project: "Java Library System",
-            title: "Java Library",
-            'Project Information': "",
-            'Languages Used':["Java"],
-            'Future Scope': "",
-            thumbnail: library,
-            screenshots:LMSScreenshots,
-            preview: "",
-            alt:"",
-            link:"",
-            repo:"https://github.com/Connz17/library-system",
-        }
-        ],
-        fullstack:
-        [
-            {
-                project: "Dark Souls",
-                title: "Dark Souls Companion App",
-                'Project Information': "",
-                'Languages Used':["React", "SCSS", "Java", "Spring", "SQL"],
-                'Future Scope': "",
-                thumbnail: darkSouls,
-                screenshots:soulsScreenshots,
-                preview: soulsGif,
-                alt:"",
-                link:"",
-                repo:"https://github.com/Connz17/darksouls-full-stack-project-frontend",
-            }
-        ] 
+        project: "JavaScript Calculator",
+        title: "JavaScript Calculator",
+        'Project Information': 
+`### Overview       
+This project is a **vanilla JavaScript calculator**. 
+The brief for this project was to make a web-based calculator using vanilla JavaScript. 
+The calculator needed to handle user inputs and give the correct output based on the numbers entered and the operation selected. 
+The advanced goal was to allow the calculator to perform chain calculations.
+#### Key parts of the code
+Two key elements in programming this calculator are:
+- The switch case that runs the correct mathematical operation based on user selection.
+- The output screen, which displays the current number selection in the bottom half of the screen and updates to show the operation selected, moving the number to the top half of the screen and updating the bottom with the second number inputted. 
+#### Key feature
+A cool feature I implemented is keyboard functionality, allowing users to input numbers and select operations using their keyboard.
+`, 
+        'Languages Used':["HTML", "CSS", "JavaScript"],
+        'Future Scope': 
+`For the next version/iteration of this project, the things I'd like to add are:
+- Implement a notes section enabling users to write things down as they are going through calculations.
+- Implement a 'change theme' button that switches the colour scheme and theme of the calculator.
+- Implement history tracking to keep a list of previous calculations.
+`,
+        thumbnail: JSCalculator,
+        screenshots:[],
+        preview: "",
+        alt:"",
+        link:"",
+        repo:"https://github.com/Connz17/javaScript-calculator-project",
+    },
+    {
+        project: "BrewDog beer punk api",
+        title: "Brew Dog API",
+        'Project Information': "",
+        'Languages Used':["React", "SCSS"],
+        'Future Scope': "",
+        thumbnail: beerpunk,
+        screenshots:beerScreenshots,
+        preview: brewdogPreview,
+        alt:"",
+        link:"",
+        repo:"https://github.com/Connz17/punk-api",
+    },
+    {
+        project: "Morse Code Translator",
+        title: "Morse Code Translator",
+        'Project Information': "",
+        'Languages Used':["HTML", "CSS", "JavaScript"],
+        'Future Scope': "",
+        thumbnail: morseCode,
+        screenshots:morseScreenshots,
+        preview: morsePreview,
+        alt:"",
+        link:"",
+        repo:"https://github.com/Connz17/morse-code-translator",
+    },
+    {
+        project: "Weather App",
+        title: "My Weather App",
+        'Project Information': "",
+        'Languages Used':["React", "SCSS"],
+        'Future Scope': "",
+        thumbnail: weatherApp,
+        screenshots:weatherScreenshots,
+        preview: weatherPreview,
+        alt:"",
+        link:"",
+        repo:"https://github.com/Connz17/weather-app",
+    },
+    {
+        project: "Javascript Browser Game",
+        title: "Javascript Maze Game",
+        'Project Information': "",
+        'Languages Used':["JavaScript", "HTML", "SCSS"],
+        'Future Scope': "",
+        thumbnail: JSMazeGame,
+        screenshots:mazeScreenshots,
+        preview: "",
+        alt:"",
+        link:"",
+        repo:"https://github.com/Connz17/js-game-project",
+    },
+    
+    {
+        project: "Ticket Tracker",
+        title: "React Ticket Tracker",
+        'Project Information': "",
+        'Languages Used':["React", "SCSS"],
+        'Future Scope': "",
+        thumbnail: ticketTracker,
+        screenshots:ticketScreenshots,
+        preview: "",
+        alt:"",
+        link:"",
+        repo:"https://github.com/Connz17/ticket-tracker",
+    },
+    {
+        project: "Property App",
+        title: "Perfect Properties",
+        'Project Information': "",
+        'Languages Used':["React", "SCSS", "Firebase"],
+        'Future Scope': "",
+        thumbnail: propertyApp,
+        screenshots:[""],
+        preview: "",
+        alt:"",
+        link:"",
+        repo:"https://github.com/Connz17/PropertyApp",
     }
+], 
+backend: [
+{
+    project: "Java Calculator",
+    title: "Java Calculator",
+    'Project Information': "",
+    'Languages Used':["Java"],
+    'Future Scope': "",
+    thumbnail: javaCalculator,
+    screenshots:[],
+    preview: "",
+    alt:"",
+    link:"",
+    repo:"https://github.com/Connz17/java-calculator",
+},
+{
+    project: "Java Hangman",
+    title: "Java Hangman Game",
+    'Project Information': "",
+    'Languages Used':["Java"],
+    'Future Scope': "",
+    thumbnail: hangman,
+    screenshots:[],
+    preview: "",
+    alt:"",
+    link:"",
+    repo:"https://github.com/Connz17/Java-hangman",
+},
+{
+    project: "Java Card Game",
+    title: "Java Card Game",
+    'Project Information': "",
+    'Languages Used':["Java"],
+    'Future Scope': "",
+    thumbnail: cardGame,
+    screenshots:[],
+    preview: "",
+    alt:"",
+    link:"",
+    repo:"https://github.com/Connz17/java-card-game",
+},
+{
+    project: "Java Library System",
+    title: "Java Library",
+    'Project Information': "",
+    'Languages Used':["Java"],
+    'Future Scope': "",
+    thumbnail: library,
+    screenshots:LMSScreenshots,
+    preview: "",
+    alt:"",
+    link:"",
+    repo:"https://github.com/Connz17/library-system",
+}
+],
+fullstack:
+[
+    {
+        project: "Dark Souls",
+        title: "Dark Souls Companion App",
+        'Project Information': "",
+        'Languages Used':["React", "SCSS", "Java", "Spring", "SQL"],
+        'Future Scope': "",
+        thumbnail: darkSouls,
+        screenshots:soulsScreenshots,
+        preview: soulsGif,
+        alt:"",
+        link:"",
+        repo:"https://github.com/Connz17/darksouls-full-stack-project-frontend",
+    }
+] 
+}
 

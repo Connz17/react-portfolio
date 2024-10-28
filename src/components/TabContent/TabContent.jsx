@@ -9,12 +9,12 @@ const TabContent = ({project, activeTab}) => {
   return (
     <div className="tab__container ">
         <div className="tab__content">
-            <div>
+            <div className='projectContent'>
                 {activeTab == "Languages Used" ? 
                 <ul>
                     {project[activeTab].map((language, index) =>
                     <li key={index}
-                        className='techStack'>
+                        id='techStack'>
                         {language}
                     </li>
                 )}
