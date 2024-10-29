@@ -18,9 +18,9 @@ import SingleProject from './pages/SingleProject/SingleProject';
 function App() {
 
   const renderProjectCards = (projects) =>
-    projects.map(({ title, thumbnail, link, preview, repo, project }, id) => (
+    projects.map(({ title, thumbnail, preview }, id) => (
       <div className="card__container" key={id}>
-        <ProjectCard project={project} title={title} image={thumbnail} site={link} preview={preview} repo={repo}/>
+        <ProjectCard title={title} image={thumbnail} preview={preview} />
         <hr />
       </div>
     ));

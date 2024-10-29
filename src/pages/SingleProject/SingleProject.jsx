@@ -58,7 +58,7 @@ const SingleProject = ({projects}) => {
             </div>
         </main>
         <br />
-            { selectedP[0].site && <button className="card__button">Visit Site</button> }
+            {selectedP[0].link && <a href={selectedP[0].link} target="_blank" rel="noreferrer"><button className="card__button">Visit Site</button></a>}
             <a href={selectedP[0].repo} target="_blank" rel="noreferrer"><button className="card__button">Visit Repo</button></a> 
         </IconContext.Provider>
     </div>

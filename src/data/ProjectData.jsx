@@ -14,6 +14,7 @@ import brewdogPreview from "../images/projectPreviews/brewdog.gif"
 import morsePreview from "../images/projectPreviews/morse.gif"
 import weatherPreview from "../images/projectPreviews/weatherApp.gif"
 import soulsGif from "../images/projectPreviews/souls.gif"
+import jsCalculatorGif from "../images/projectPreviews/jscalculator.gif"
 
 // Automatically import all images from the screenshots directory
 const importBeers = (r) => r.keys().map(r);
@@ -37,6 +38,8 @@ const ticketScreenshots = importTT(require.context('../images/screenshots/Ticket
 const importWeather = (r) => r.keys().map(r);
 const weatherScreenshots = importWeather(require.context('../images/screenshots/WeatherApp', false, /\.(png|jpe?g|svg)$/));
 
+const importJSmath = (r) => r.keys().map(r);
+const jsMathScreenshots = importJSmath(require.context('../images/screenshots/JsCalculator', false, /\.(png|jpe?g|svg)$/));
 
 
 export const ProjectData = 
@@ -66,10 +69,10 @@ A cool feature I implemented is keyboard functionality, allowing users to input 
 - Implement history tracking to keep a list of previous calculations.
 `,
         thumbnail: JSCalculator,
-        screenshots:[],
-        preview: "",
+        screenshots:jsMathScreenshots,
+        preview: jsCalculatorGif,
         alt:"",
-        link:"",
+        link:"https://connz17.github.io/javaScript-calculator-project/",
         repo:"https://github.com/Connz17/javaScript-calculator-project",
     },
     {

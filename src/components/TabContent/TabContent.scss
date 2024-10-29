@@ -1,7 +1,7 @@
 @use "../../styles/variables" as *;
 
 .tab__content{
-    height: 23em;
+    height: 21em;
     width: 100%;
     padding: 1em 1em;
     background-color: #cccccc57;
@@ -29,19 +29,17 @@
 
 .projectContent {
     font-family: $font-secondary;
-    
-    
-
 
     & h4{
-        margin-top: 0.4em;
-        
-        
+        margin-top: 1em;
+    }
+
+    & p{
+        margin-bottom: 0.5em;
     }
 
     & li{
         margin-left: 2em;
-       
     }
 }
 
