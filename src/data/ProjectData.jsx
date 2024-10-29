@@ -78,10 +78,25 @@ A cool feature I implemented is keyboard functionality, allowing users to input 
     {
         project: "BrewDog beer punk api",
         title: "Brew Dog API",
-        'Project Information': "",
+        'Project Information':
+`### Overview       
+This was a **xxxx** project. 
+The brief for this project was to make a xxxxxxx. 
+The advanced goal was to allow the xxxxxxxxxxx.
+#### Key parts of the code
+key elements in programming this project was:
+- a
+- b
+#### Key feature
+
+`,
         'Languages Used':["React", "SCSS"],
-        'Future Scope': "",
-        thumbnail: beerpunk,
+        'Future Scope':
+    `For the next version/iteration of this project, the things I'd like to add are:
+- Implement a xxxxxxxxx.
+- Implement a xxxxxxxx.
+- Implement xxxxxxxxx.
+`,    thumbnail: beerpunk,
         screenshots:beerScreenshots,
         preview: brewdogPreview,
         alt:"",
@@ -91,9 +106,25 @@ A cool feature I implemented is keyboard functionality, allowing users to input 
     {
         project: "Morse Code Translator",
         title: "Morse Code Translator",
-        'Project Information': "",
+        'Project Information':
+        `### Overview       
+This was a **xxxx** project. 
+The brief for this project was to make a xxxxxxx. 
+The advanced goal was to allow the xxxxxxxxxxx.
+#### Key parts of the code
+key elements in programming this project was:
+- a
+- b
+#### Key feature
+
+`,
         'Languages Used':["HTML", "CSS", "JavaScript"],
-        'Future Scope': "",
+        'Future Scope':
+        `For the next version/iteration of this project, the things I'd like to add are:
+- Implement a xxxxxxxxx.
+- Implement a xxxxxxxx.
+- Implement xxxxxxxxx.
+`,
         thumbnail: morseCode,
         screenshots:morseScreenshots,
         preview: morsePreview,
@@ -104,9 +135,25 @@ A cool feature I implemented is keyboard functionality, allowing users to input 
     {
         project: "Weather App",
         title: "My Weather App",
-        'Project Information': "",
+        'Project Information':
+        `### Overview       
+This was a **xxxx** project. 
+The brief for this project was to make a xxxxxxx. 
+The advanced goal was to allow the xxxxxxxxxxx.
+#### Key parts of the code
+key elements in programming this project was:
+- a
+- b
+#### Key feature
+
+`,
         'Languages Used':["React", "SCSS"],
-        'Future Scope': "",
+        'Future Scope':
+        `For the next version/iteration of this project, the things I'd like to add are:
+- Implement a xxxxxxxxx.
+- Implement a xxxxxxxx.
+- Implement xxxxxxxxx.
+`,
         thumbnail: weatherApp,
         screenshots:weatherScreenshots,
         preview: weatherPreview,
@@ -117,9 +164,25 @@ A cool feature I implemented is keyboard functionality, allowing users to input 
     {
         project: "Javascript Browser Game",
         title: "Javascript Maze Game",
-        'Project Information': "",
+        'Project Information':
+        `### Overview       
+This was a **xxxx** project. 
+The brief for this project was to make a xxxxxxx. 
+The advanced goal was to allow the xxxxxxxxxxx.
+#### Key parts of the code
+key elements in programming this project was:
+- a
+- b
+#### Key feature
+
+`,
         'Languages Used':["JavaScript", "HTML", "SCSS"],
-        'Future Scope': "",
+        'Future Scope':
+        `For the next version/iteration of this project, the things I'd like to add are:
+- Implement a xxxxxxxxx.
+- Implement a xxxxxxxx.
+- Implement xxxxxxxxx.
+`,
         thumbnail: JSMazeGame,
         screenshots:mazeScreenshots,
         preview: "",
@@ -131,9 +194,25 @@ A cool feature I implemented is keyboard functionality, allowing users to input 
     {
         project: "Ticket Tracker",
         title: "React Ticket Tracker",
-        'Project Information': "",
+        'Project Information':
+        `### Overview       
+This was a **xxxx** project. 
+The brief for this project was to make a xxxxxxx. 
+The advanced goal was to allow the xxxxxxxxxxx.
+#### Key parts of the code
+key elements in programming this project was:
+- a
+- b
+#### Key feature
+
+`,
         'Languages Used':["React", "SCSS"],
-        'Future Scope': "",
+        'Future Scope':
+        `For the next version/iteration of this project, the things I'd like to add are:
+- Implement a xxxxxxxxx.
+- Implement a xxxxxxxx.
+- Implement xxxxxxxxx.
+`,
         thumbnail: ticketTracker,
         screenshots:ticketScreenshots,
         preview: "",
@@ -144,9 +223,25 @@ A cool feature I implemented is keyboard functionality, allowing users to input 
     {
         project: "Property App",
         title: "Perfect Properties",
-        'Project Information': "",
+        'Project Information':
+        `### Overview       
+This was a **xxxx** project. 
+The brief for this project was to make a xxxxxxx. 
+The advanced goal was to allow the xxxxxxxxxxx.
+#### Key parts of the code
+key elements in programming this project was:
+- a
+- b
+#### Key feature
+
+`,
         'Languages Used':["React", "SCSS", "Firebase"],
-        'Future Scope': "",
+        'Future Scope':
+        `For the next version/iteration of this project, the things I'd like to add are:
+- Implement a xxxxxxxxx.
+- Implement a xxxxxxxx.
+- Implement xxxxxxxxx.
+`,
         thumbnail: propertyApp,
         screenshots:[""],
         preview: "",
@@ -159,9 +254,25 @@ backend: [
 {
     project: "Java Calculator",
     title: "Java Calculator",
-    'Project Information': "",
+    'Project Information':
+    `### Overview       
+This was a **xxxx** project. 
+The brief for this project was to make a xxxxxxx. 
+The advanced goal was to allow the xxxxxxxxxxx.
+#### Key parts of the code
+key elements in programming this project was:
+- a
+- b
+#### Key feature
+
+`,
     'Languages Used':["Java"],
-    'Future Scope': "",
+    'Future Scope':
+    `For the next version/iteration of this project, the things I'd like to add are:
+- Implement a xxxxxxxxx.
+- Implement a xxxxxxxx.
+- Implement xxxxxxxxx.
+`,
     thumbnail: javaCalculator,
     screenshots:[],
     preview: "",
@@ -172,9 +283,25 @@ backend: [
 {
     project: "Java Hangman",
     title: "Java Hangman Game",
-    'Project Information': "",
+    'Project Information':
+    `### Overview       
+This was a **xxxx** project. 
+The brief for this project was to make a xxxxxxx. 
+The advanced goal was to allow the xxxxxxxxxxx.
+#### Key parts of the code
+key elements in programming this project was:
+- a
+- b
+#### Key feature
+
+`,
     'Languages Used':["Java"],
-    'Future Scope': "",
+    'Future Scope':
+    `For the next version/iteration of this project, the things I'd like to add are:
+- Implement a xxxxxxxxx.
+- Implement a xxxxxxxx.
+- Implement xxxxxxxxx.
+`,
     thumbnail: hangman,
     screenshots:[],
     preview: "",
@@ -185,9 +312,25 @@ backend: [
 {
     project: "Java Card Game",
     title: "Java Card Game",
-    'Project Information': "",
+    'Project Information':
+    `### Overview       
+This was a **xxxx** project. 
+The brief for this project was to make a xxxxxxx. 
+The advanced goal was to allow the xxxxxxxxxxx.
+#### Key parts of the code
+key elements in programming this project was:
+- a
+- b
+#### Key feature
+
+`,
     'Languages Used':["Java"],
-    'Future Scope': "",
+    'Future Scope':
+    `For the next version/iteration of this project, the things I'd like to add are:
+- Implement a xxxxxxxxx.
+- Implement a xxxxxxxx.
+- Implement xxxxxxxxx.
+`,
     thumbnail: cardGame,
     screenshots:[],
     preview: "",
@@ -198,9 +341,25 @@ backend: [
 {
     project: "Java Library System",
     title: "Java Library",
-    'Project Information': "",
+    'Project Information':
+    `### Overview       
+This was a **xxxx** project. 
+The brief for this project was to make a xxxxxxx. 
+The advanced goal was to allow the xxxxxxxxxxx.
+#### Key parts of the code
+key elements in programming this project was:
+- a
+- b
+#### Key feature
+
+`,
     'Languages Used':["Java"],
-    'Future Scope': "",
+    'Future Scope':
+    `For the next version/iteration of this project, the things I'd like to add are:
+- Implement a xxxxxxxxx.
+- Implement a xxxxxxxx.
+- Implement xxxxxxxxx.
+`,
     thumbnail: library,
     screenshots:LMSScreenshots,
     preview: "",
@@ -214,9 +373,25 @@ fullstack:
     {
         project: "Dark Souls",
         title: "Dark Souls Companion App",
-        'Project Information': "",
+        'Project Information':
+        `### Overview       
+This was a **xxxx** project. 
+The brief for this project was to make a xxxxxxx. 
+The advanced goal was to allow the xxxxxxxxxxx.
+#### Key parts of the code
+key elements in programming this project was:
+- a
+- b
+#### Key feature
+
+`,
         'Languages Used':["React", "SCSS", "Java", "Spring", "SQL"],
-        'Future Scope': "",
+        'Future Scope':
+        `For the next version/iteration of this project, the things I'd like to add are:
+- Implement a xxxxxxxxx.
+- Implement a xxxxxxxx.
+- Implement xxxxxxxxx.
+`,
         thumbnail: darkSouls,
         screenshots:soulsScreenshots,
         preview: soulsGif,
