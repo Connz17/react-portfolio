@@ -39,3 +39,11 @@ width: 100%;
     border-color: $gold;
     background-color: $light-purple;
 }
+
+@media only screen and (max-width: 450px) {
+    .tab-list {
+        flex-wrap: wrap;
+    }
+
+
+}

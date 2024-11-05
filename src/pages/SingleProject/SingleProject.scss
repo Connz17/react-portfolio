@@ -76,3 +76,60 @@
         color: $light-purple;
     }
 }
+
+@media only screen and (max-width: 1027px) {
+    .project__section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .information__container {
+        width: 70%;
+    }
+
+    .screenshot__container{
+        width: 80%;
+    }
+
+}
+    
+@media only screen and (max-width: 600px) {
+    .information__container {
+        width: 80%;
+    }
+
+    .screenshot__container{
+        width: 75%;
+    }
+
+    #screenshot{
+        width: 27rem;
+        height: 15.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .information__container {
+        width: 90%;
+    }
+
+    .screenshot__container{
+        width: 90%;
+    }
+
+    #screenshot{
+        width: 23rem;
+        height: 14rem;
+    }
+
+}
+
+@media only screen and (max-width: 395px) {
+
+    #screenshot{
+        width: 20rem;
+        height: 13rem;
+    }
+}
