@@ -1,0 +1,49 @@
+@use "../../styles/variables" as *;
+
+.tab__header li {
+border-top-right-radius: 2em;
+border-top-left-radius: 2em;
+width: 100%;
+
+}
+.tab-list {
+    width: fit-content;
+    min-width: 100%;
+    display: flex;
+    gap: .5em;
+    margin: 0;
+    padding: 0;
+    // border: 2px solid $light-purple;
+    // // border-bottom: 2px solid #eeee;
+    color: #252831;
+}
+
+.tab-list li {
+    display: block;
+}
+
+.tab__button {
+    font: inherit;
+    padding: 0.75em 1em;
+    border: 2px solid $light-purple;
+    border-width: 0 0 2px;
+    cursor: pointer;
+    color: inherit;
+    white-space: nowrap;
+}
+.tab__button:not(.selected):hover {
+    color: $gold;
+}
+.selected {
+    color: #f8f9fc;
+    border-color: $gold;
+    background-color: $light-purple;
+}
+
+@media only screen and (max-width: 450px) {
+    .tab-list {
+        flex-wrap: wrap;
+    }
+
+
+}

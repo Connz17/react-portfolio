@@ -1,0 +1,135 @@
+@use "../../styles/variables" as *;
+
+.topBanner {
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin: 2rem;
+    font-family: $font-primary;
+}
+
+.project__section{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.screenshot__container{
+    width: 50%;
+}
+
+.chevron{
+    width: 3rem;
+    height: 3rem;
+    fill: $indigo;
+
+    &:hover{
+        cursor: pointer;
+        color: $purple;
+        fill: $purple;
+    }
+}
+
+.counters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.information__container {
+    width: 40%;
+}
+
+
+
+#thumb{
+    height: 5rem;
+    border-radius: 1em;
+}
+
+#screenshot{
+    width: 40rem;
+    height: 21.5rem;
+    border-radius: .5em;
+}
+
+.card__button{
+    margin: 1rem;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: $font-tertiary;
+    background-color: $light-purple;
+    color: #f8f9fc;
+    border: 2px solid $light-purple;
+
+
+    &:hover {
+        background-color: #f8f9fc;
+        color: $light-purple;
+    }
+}
+
+@media only screen and (max-width: 1027px) {
+    .project__section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .information__container {
+        width: 70%;
+    }
+
+    .screenshot__container{
+        width: 80%;
+    }
+
+}
+    
+@media only screen and (max-width: 600px) {
+    .information__container {
+        width: 80%;
+    }
+
+    .screenshot__container{
+        width: 75%;
+    }
+
+    #screenshot{
+        width: 27rem;
+        height: 15.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .information__container {
+        width: 90%;
+    }
+
+    .screenshot__container{
+        width: 90%;
+    }
+
+    #screenshot{
+        width: 23rem;
+        height: 14rem;
+    }
+
+}
+
+@media only screen and (max-width: 395px) {
+
+    #screenshot{
+        width: 20rem;
+        height: 13rem;
+    }
+}

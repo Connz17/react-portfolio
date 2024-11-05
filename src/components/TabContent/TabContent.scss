@@ -1,0 +1,45 @@
+@use "../../styles/variables" as *;
+
+.tab__content{
+    height: 21em;
+    width: 100%;
+    padding: 1em 1em;
+    background-color: #cccccc57;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em; 
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar{
+        width: 0.5em;
+
+        &-thumb{
+            background: $indigo;
+            border-radius: 50px;
+            
+        }
+    }
+    
+}
+
+#techStack{
+    display: block;
+    margin-bottom: 1em;
+    margin: 1em 0em;
+}
+
+.projectContent {
+    font-family: $font-secondary;
+
+    & h4{
+        margin-top: 1em;
+    }
+
+    & p{
+        margin-bottom: 0.5em;
+    }
+
+    & li{
+        margin-left: 2em;
+    }
+}
+
