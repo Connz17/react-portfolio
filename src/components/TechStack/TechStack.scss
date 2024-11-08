@@ -1,0 +1,47 @@
+@use "../../styles/variables" as *;
+
+.skill {
+    border-radius: 1.5rem;
+    background-color: #252831f1;
+    width: 14em;
+    height: 14em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease;
+
+    &:hover {
+    background: linear-gradient(
+        45deg,
+        rgba(56, 61, 75, 0.6) 43%,
+        rgba(106, 113, 131, 0.6) 60%
+    );
+    }
+}
+
+.skill__image {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.skill__name {
+    position: absolute;
+    opacity: 0; /* Starts hidden */
+    font-size: 2rem;
+    font-family: $font-tertiary;
+    color: $purple;
+    text-align: center;
+    transition: opacity 0.3s ease;
+}
+
+  /* Hover effects */
+.skill:hover .skill__image {
+    opacity: 0; /* Fade out image */
+}
+
+.skill:hover .skill__name {
+    opacity: 1; /* Fade in text */
+}
