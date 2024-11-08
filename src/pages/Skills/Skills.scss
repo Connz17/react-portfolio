@@ -5,3 +5,34 @@
     margin: auto;
 }
 
+.skills__container {
+    margin: auto;
+    width: 65%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+}
+
+
+@media only screen and (max-width: 1027px) {
+    .skills__container {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
+        gap: 0.5rem;
+    }
+}
+    
+@media only screen and (max-width: 600px) {
+    .skills__container {
+        grid-template-columns: 1fr 1fr;
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .skills__container {
+        grid-template-columns: 1fr;
+    }
+}
+

@@ -247,7 +247,7 @@ A feature I added is dynamic color changing to ticket counts that exceed a speci
         screenshots:ticketScreenshots,
         preview: "",
         alt:"",
-        link:"https://connz17.github.io/ticket-tracker/index.html",
+        link:"https://connz17.github.io/ticket-tracker/",
         repo:"https://github.com/Connz17/ticket-tracker",
     },
     {
