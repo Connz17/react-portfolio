@@ -1,35 +1,38 @@
 @use "../../styles/variables" as *;
 
-.card{
+.card {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 2rem 0rem;
-}
+    justify-content: center;
+    margin: 2rem 0;
 
-.card__image{
+    &__image {
     width: 35rem;
     height: auto;
     border-radius: 15px;
+    transition: opacity 0.3s ease;
 
-    &:hover {
-        opacity: 0.7;
+        &:hover {
+            opacity: 0.7;
+        }
     }
-}
 
-.card__title {
-    position: relative;
-    bottom: 2rem;
+    &__title {
     font-size: 2rem;
     font-family: $font-secondary;
     color: black;
+    text-align: center;
+    margin: 1rem 0rem;
 
-    &:hover {
+        &:hover {
         color: $light-purple;
         text-decoration: underline;
+        }
+    }
+
+    &__link {
+    text-decoration: none;
     }
 }
-
 
 @media only screen and (max-width: 1027px) {
     .card{

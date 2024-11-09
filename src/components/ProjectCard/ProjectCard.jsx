@@ -1,24 +1,33 @@
 import "./ProjectCard.scss";
-import template from "../../images/projectPreviews/templatePreview.webp"
+import template from "../../images/projectPreviews/templatePreview.webp";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
+const ProjectCard = ({ title, image, preview }) => {
+  const [currentImage, setCurrentImage] = useState(image);
 
-
-const ProjectCard = ({title, image, preview}) => {
-
-if (preview === "") {
-  preview = template;
-}
+  const handleMouseOver = () => setCurrentImage(preview);
+  const handleMouseOut = () => setCurrentImage(image);
+  if (preview === "") {
+    preview = template;
+  }
 
   return (
-    
     <div className="card">
-        <img className="card__image" src={image} alt="project thumbnail" onMouseOver={e => e.target.src=preview} onMouseOut={e => e.target.src=image}/>
-        <div>
-            <Link to={`/${title}`} style={{ textDecoration: "none" }}><h3 className="card__title">{title}</h3></Link>
-        </div>
+      <Link to={`/${title}`} className="card__link">
+      <div>
+          <h3 className="card__title">{title}</h3>
+      </div>
+      <img
+        className="card__image"
+        src={currentImage}
+        alt="project thumbnail"
+        onMouseOver={handleMouseOver}
+        onMouseOut={handleMouseOut}
+      />
+        </Link>
     </div>
-  )
-}
+  );
+};
 
-export default ProjectCard
+export default ProjectCard;
