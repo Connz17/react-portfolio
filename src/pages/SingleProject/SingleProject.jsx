@@ -13,7 +13,7 @@ const SingleProject = ({projects}) => {
     const [activeTab, setActiveTab] = useState("Project Information");
     const [counter, setCounter] = useState(0);
 
-    const selectedP = projects.filter((project) => project.title == title)
+    const selectedP = projects.filter((project) => project.title === title)
 
     
     const handleIncrement = () => {

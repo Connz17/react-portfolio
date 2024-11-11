@@ -5,52 +5,41 @@
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 2fr 2fr 1fr;
-    grid-template-areas: 
-    ". title title title ."
-    ". . . . ."
-    ". LI . GH ."
-    ". LItxt . GHtxt ."
-    ". . . . .";
+    grid-template-areas:
+        ". title title title ."
+        ". . . . ."
+        ". link1 . link2 ."
+        ". . . . ."
+        ". . . . .";
     align-items: center;
     justify-items: center;
 }
 
-#Contact__title{
+.contact__title {
     grid-area: title;
-}
-
-#linkedIn__image{
-    grid-area: LI;
-}
-
-#linkedIn__text{
-    grid-area: LItxt;
-}
-
-#gitHub__image{
-    grid-area: GH;
-}
-
-#gitHub__text{
-    grid-area: GHtxt;
-}
-
-.icon__image {
-    height: 10rem;
-}
-
-.icon__text {
-    font-family: $font-tertiary;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 
-@media only screen and (max-width: 450px) {
-    .icon__image {
-        height: 7.5rem;
+.link1 {
+    grid-area: link1;
+}
+
+.link2 {
+    grid-area: link2;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contact__main {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "title"
+        "link1"
+        "."
+        "link2"
+        ".";
     }
-    
-    .icon__text {
-        font-size: 2rem;
-    }
+
 }

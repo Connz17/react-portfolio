@@ -10,7 +10,7 @@ const TabContent = ({project, activeTab}) => {
     <div className="tab__container ">
         <div className="tab__content">
             <div className='projectContent'>
-                {activeTab == "Languages Used" ? 
+                {activeTab === "Languages Used" ? 
                 <ul>
                     {project[activeTab].map((language, index) =>
                     <li key={index}

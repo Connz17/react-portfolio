@@ -2,25 +2,32 @@ import Nav from "../../containers/Nav/Nav"
 import "./Contact.scss"
 import linkedIn from "../../images/svgs/linkedin-svgrepo-com.svg"
 import gitHub from "../../images/svgs/github-svgrepo-com.svg"
+import ContactLink from "../../components/ContactLink/ContactLink";
 
 
 const Contact = () => {
   return (
     <div>
-      <Nav/>
+      <Nav />
       <div className="contact__main">
-        <h1 className="page__heading" id="Contact__title">Connect with me</h1>
-        <a id="linkedIn__image" href="https://www.linkedin.com/in/connel-nwaodor-b45145125/" target="_blank" rel="noreferrer">
-          <img className="icon__image" id="linkedIn__image" src={linkedIn} alt="Linked In" />
-        </a>
-        <h3 className="icon__text" id="linkedIn__text">LinkedIn</h3>
-        <a id="gitHub__image" href="https://github.com/Connz17" target="_blank" rel="noreferrer">
-          <img className="icon__image" src={gitHub} alt="Git Hub"/>
-        </a>
-        <h3 className="icon__text" id="gitHub__text">Git Hub</h3>
+        <h1 className="contact__title page__heading">Connect with me</h1>
+        
+        <ContactLink 
+          className="link1" 
+          link="https://www.linkedin.com/in/connel-nwaodor-b45145125/"
+          image={linkedIn}
+          alt="LinkedIn Profile"
+          name="LinkedIn"/>
+
+      <ContactLink 
+            className="link2" 
+            link="https://github.com/Connz17"
+            image={gitHub}
+            alt="GitHub Profile"
+            name="GitHub"/>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Contact
