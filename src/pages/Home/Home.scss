@@ -22,7 +22,7 @@ section {
     font-size: 1.5rem;
     white-space: nowrap;
     width: 0;
-    animation: typing 2.5s steps(45, end) 0.5s forwards,
+    animation: typing 2.5s steps(45, end) 0.5s forwards;
 }
 
 .tcOne{
@@ -63,7 +63,6 @@ section {
 @media only screen and (max-width: 1027px) {
     //max width is 992 and everything down
 
-
     .homeImg{
         margin-top: 3rem;
         height: 12rem;
@@ -98,7 +97,7 @@ section {
 
 
     .titleContainer{
-        animation: typing 1.5s steps(35, end) 0.5s forwards,
+        animation: typing 1.5s steps(35, end) 0.5s forwards;
     }
 
     .homeImg{
@@ -136,7 +135,7 @@ section {
     }
 
     .titleContainer{
-        animation: typing 1.3s steps(30, end) 0.5s forwards,
+        animation: typing 1.3s steps(30, end) 0.5s forwards;
     }
 
     .tcThree {
