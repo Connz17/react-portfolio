@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.66ba40ad.css",
-    "main.js": "/react-portfolio/static/js/main.287eda1f.js",
+    "main.css": "/react-portfolio/static/css/main.2ad063f3.css",
+    "main.js": "/react-portfolio/static/js/main.6557b019.js",
     "static/js/787.2dcca737.chunk.js": "/react-portfolio/static/js/787.2dcca737.chunk.js",
     "static/media/brewdog.gif": "/react-portfolio/static/media/brewdog.04a91c56d287ec437798.gif",
     "static/media/souls.gif": "/react-portfolio/static/media/souls.154a49a23114478b9040.gif",
@@ -117,12 +117,12 @@
     "static/media/css3-svgrepo-com (black).svg": "/react-portfolio/static/media/css3-svgrepo-com (black).a1b1633b1f1614faa5eea3fa3f9e5911.svg",
     "static/media/css-3-svgrepo-com.svg": "/react-portfolio/static/media/css-3-svgrepo-com.bbb0f55c6e7e1428d1c512cd5aa49b6f.svg",
     "static/media/html-5-svgrepo-com.svg": "/react-portfolio/static/media/html-5-svgrepo-com.b92f6a1c747de9e244ba2e290e63fd32.svg",
-    "main.66ba40ad.css.map": "/react-portfolio/static/css/main.66ba40ad.css.map",
-    "main.287eda1f.js.map": "/react-portfolio/static/js/main.287eda1f.js.map",
+    "main.2ad063f3.css.map": "/react-portfolio/static/css/main.2ad063f3.css.map",
+    "main.6557b019.js.map": "/react-portfolio/static/js/main.6557b019.js.map",
     "787.2dcca737.chunk.js.map": "/react-portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66ba40ad.css",
-    "static/js/main.287eda1f.js"
+    "static/css/main.2ad063f3.css",
+    "static/js/main.6557b019.js"
   ]
 }
